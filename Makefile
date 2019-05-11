@@ -61,10 +61,7 @@ html:
 	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/websites/sphinx/source/_static
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
-	open /Users/jslater/websites/Mirror_WSU_Website.fetchMirror
-	sleep 10
-	osascript -e 'quit app "Fetch"' 
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html." 
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

@@ -163,8 +163,8 @@ html_static_path = ['_static']
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ['/Users/jslater/Documents/CourseMaterial/SphinxSource',
-                   '/Users/jslater/Documents/CourseMaterial/SphinxSource/classes/systemdynamics/Exams/.htaccess']
+#html_extra_path = ['/Users/jslater/Documents/CourseMaterial/SphinxSource',
+#                   '/Users/jslater/Documents/CourseMaterial/SphinxSource/classes/systemdynamics/Exams/.htaccess']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
