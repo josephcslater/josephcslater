@@ -17,7 +17,6 @@ Joseph C. Slater
    :maxdepth: 1
 
    bio
-   classes
    contact
    Curriculum Vitae <http://cecs.wright.edu/~jslater/_static/cv.pdf>
    recentpubs
