@@ -1,0 +1,29 @@
+\begin{sphinxtheindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item Advanced Finite Elements, \hyperpage{27}
+
+  \indexspace
+  \bigletter C
+  \item Computational Methods, \hyperpage{27}
+  \item Course Material, \hyperpage{27}
+
+  \indexspace
+  \bigletter D
+  \item Dynamics, \hyperpage{27}
+
+  \indexspace
+  \bigletter N
+  \item Nonlinear Dynamics and Vibration, \hyperpage{27}
+
+  \indexspace
+  \bigletter S
+  \item Statics, \hyperpage{27}
+  \item System Dynamics, \hyperpage{27}
+
+  \indexspace
+  \bigletter V
+  \item Vibration Testing, \hyperpage{27}
+
+\end{sphinxtheindex}

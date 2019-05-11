@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="originator"
+  content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)">
+  <!-- html -->
+  <meta name="src" content="lab1.tex">
+  <meta name="date" content="2008-04-30 11:20:00">
+  <link rel="stylesheet" type="text/css" href="lab1.css">
+</head>
+
+<body>
+
+<div class="center">
+<!--l. 13-->
+
+<p class="noindent"><!--l. 14--></p>
+
+<p class="noindent"><span class="cmr-17">ME 712 Lab 1: 3-Dimensional
+Frame/Truss</span> <span class="cmr-17">Element Code</span></p>
+</div>
+<ol class="enumerate1">
+  <li class="enumerate" id="x1-3x1">Write a finite element submodule 
+    <ol class="enumerate2">
+      <li class="enumerate" id="x1-5x1">Write a general element code to
+        generate the elemental stiffness and mass matrices for a single
+        three-dimensional rod/torsion-rod/beam linearly tapered element for
+        WFEM. </li>
+      <li class="enumerate" id="x1-7x2">Write an additional routine that
+        returns the coordinate transformation matrix. </li>
+      <li class="enumerate" id="x1-9x3">Obtain the FE matrices (<span
+        class="cmmi-10x-x-109">M </span>and <span
+        class="cmmi-10x-x-109">K</span>) in global coordinates. </li>
+      <li class="enumerate" id="x1-11x4">Write a subroutine to assemble these
+        elements into the global matrix.</li>
+    </ol>
+  </li>
+  <li class="enumerate" id="x1-13x2">Check your code by comparing the results
+    of your code to that of ANSYS for a sufficiently complex problem. Be sure
+    to do at least one mesh convergence study in addition to the following
+    bench marks (See 3 below). 
+    <ol class="enumerate2">
+      <li class="enumerate" id="x1-15x1">Static simple and complex
+        (complicated) </li>
+      <li class="enumerate" id="x1-17x2">Dynamic theoretical: compare to
+        closed-form dynamic mode shapes and natural frequencies </li>
+      <li class="enumerate" id="x1-19x3">Prove that choice of coordinate does
+        not change your answers through rotating your problem a partial angle
+        (less than 90 degrees in all three directions.). </li>
+      <li class="enumerate" id="x1-21x4">As least one dynamic case unique to
+        your group validated against ANSYS.</li>
+    </ol>
+  </li>
+  <li class="enumerate" id="x1-23x3">Reports should show tables comparing
+    continuum theory/ANSYS/ your code results for numerous validation cases.
+    Dynamic cases must also show convergence to continuum theory when the mesh
+    is refined for both rod, torsion rod, and beam cases. The more validation
+    that is performed, the higher your work will be regarded. Put code and
+    transcripts in an appendix. </li>
+  <li class="enumerate" id="x1-25x4">All reports and codes and input files must
+    be zipped and emailed to me in a single package. </li>
+</ol>
+</body>
+</html>

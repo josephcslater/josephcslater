@@ -1,0 +1,116 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Bio}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Bio}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Recent Publications}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Contact}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Course Material}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}ME 3210: System Dynamics}{2}{subsection.1.4.1}
+\contentsline {subsubsection}{Syllabus: ME 3210: System Dynamics, Spring 2015}{2}{subsubsection*.3}
+\contentsline {paragraph}{Instructor}{2}{paragraph*.4}
+\contentsline {paragraph}{Objectives}{2}{paragraph*.5}
+\contentsline {paragraph}{Office Hours}{2}{paragraph*.6}
+\contentsline {paragraph}{Text}{3}{paragraph*.7}
+\contentsline {paragraph}{Prerequisites}{3}{paragraph*.8}
+\contentsline {paragraph}{Course Contents}{3}{paragraph*.9}
+\contentsline {paragraph}{Grade composition}{3}{paragraph*.10}
+\contentsline {paragraph}{Homework}{3}{paragraph*.11}
+\contentsline {paragraph}{Exams and Quizzes}{3}{paragraph*.12}
+\contentsline {paragraph}{Professionalism}{4}{paragraph*.13}
+\contentsline {paragraph}{Programming/Computer Usage}{4}{paragraph*.14}
+\contentsline {paragraph}{Problem Solutions}{4}{paragraph*.15}
+\contentsline {paragraph}{Important Dates}{4}{paragraph*.16}
+\contentsline {subsubsection}{ME 3210: System Dynamics Homework}{5}{subsubsection*.17}
+\contentsline {subsection}{\numberline {1.4.2}ME 7120: Finite Element Method Applications: Course Material}{5}{subsection.1.4.2}
+\contentsline {subsubsection}{General Materials of Interest}{5}{subsubsection*.18}
+\contentsline {paragraph}{Syllabus: ME 7120: Finite Element Method Applications, Fall 2016}{6}{paragraph*.19}
+\contentsline {subparagraph}{Project 1}{6}{subparagraph*.20}
+\contentsline {subparagraph}{Project 2}{6}{subparagraph*.21}
+\contentsline {subparagraph}{Project 3}{7}{subparagraph*.22}
+\contentsline {subparagraph}{Instructor}{7}{subparagraph*.23}
+\contentsline {subparagraph}{Text}{7}{subparagraph*.24}
+\contentsline {subparagraph}{Office Hours}{7}{subparagraph*.25}
+\contentsline {subparagraph}{Software}{7}{subparagraph*.26}
+\contentsline {subparagraph}{Prerequisites}{7}{subparagraph*.27}
+\contentsline {subparagraph}{Attendance}{8}{subparagraph*.28}
+\contentsline {subparagraph}{Course Contents}{8}{subparagraph*.29}
+\contentsline {subparagraph}{Homework (10\%)}{8}{subparagraph*.30}
+\contentsline {subparagraph}{Labs (40\%)}{8}{subparagraph*.31}
+\contentsline {subparagraph}{Exams (50\%)}{8}{subparagraph*.32}
+\contentsline {subparagraph}{Problem Solutions}{8}{subparagraph*.33}
+\contentsline {subparagraph}{Important Dates}{9}{subparagraph*.34}
+\contentsline {paragraph}{ME 7120 Homework}{9}{paragraph*.35}
+\contentsline {subsubsection}{Alternative Reference Materials (Some are on course reserve)}{10}{subsubsection*.36}
+\contentsline {subsection}{\numberline {1.4.3}ME 7160: Nonlinear Dynamics and Vibration}{10}{subsection.1.4.3}
+\contentsline {subsubsection}{Materials}{10}{subsubsection*.37}
+\contentsline {subsection}{\numberline {1.4.4}ME 7690: Vibration Testing}{10}{subsection.1.4.4}
+\contentsline {subsubsection}{Must-read stuff}{10}{subsubsection*.38}
+\contentsline {paragraph}{Description}{10}{paragraph*.39}
+\contentsline {paragraph}{Instructors}{10}{paragraph*.40}
+\contentsline {paragraph}{Prerequisites}{11}{paragraph*.41}
+\contentsline {paragraph}{Time and Location}{11}{paragraph*.42}
+\contentsline {subparagraph}{Lecture:}{11}{subparagraph*.43}
+\contentsline {subparagraph}{Lab:}{11}{subparagraph*.44}
+\contentsline {paragraph}{Texts}{11}{paragraph*.45}
+\contentsline {subparagraph}{Required}{11}{subparagraph*.46}
+\contentsline {subparagraph}{Supplementary}{11}{subparagraph*.47}
+\contentsline {paragraph}{Software}{12}{paragraph*.48}
+\contentsline {subparagraph}{Matlab}{12}{subparagraph*.49}
+\contentsline {subparagraph}{Python}{12}{subparagraph*.50}
+\contentsline {paragraph}{Topics}{13}{paragraph*.51}
+\contentsline {paragraph}{Homework (10\%)}{13}{paragraph*.52}
+\contentsline {paragraph}{Exams (50\%)}{14}{paragraph*.53}
+\contentsline {paragraph}{Labs (40\%)}{14}{paragraph*.54}
+\contentsline {paragraph}{Important Dates}{15}{paragraph*.59}
+\contentsline {subsubsection}{HW and Other Assignments}{15}{subsubsection*.60}
+\contentsline {subsection}{\numberline {1.4.5}Theses/Dissertations using LaTeX}{15}{subsection.1.4.5}
+\contentsline {subsubsection}{Plotting (even if you\IeC {\textquoteright }re not using LaTeX)}{15}{subsubsection*.61}
+\contentsline {subsubsection}{WSU LaTeX Thesis/Dissertation style file}{15}{subsubsection*.62}
+\contentsline {subsection}{\numberline {1.4.6}EGR 8910: Ph.D. Seminar}{16}{subsection.1.4.6}
+\contentsline {subsubsection}{Model Based Approach To Understand And Develop Technology Enhanced System For Engineering Education}{16}{subsubsection*.63}
+\contentsline {paragraph}{Abstract}{16}{paragraph*.64}
+\contentsline {subsubsection}{Engineering Inpatient Discharges: Disposition Prediction and Day-of-Discharge Planning}{16}{subsubsection*.65}
+\contentsline {paragraph}{Abstract}{16}{paragraph*.66}
+\contentsline {subsubsection}{U. S. Air Force Research Lab \textendash {} Civilian Careers and Research Collaboration Opportunities}{17}{subsubsection*.67}
+\contentsline {paragraph}{Abstract}{17}{paragraph*.68}
+\contentsline {subsubsection}{Computational and Experimental Turbomachinery Dynamics Research at the OSU Gas Turbine Laboratory (GTL)}{17}{subsubsection*.69}
+\contentsline {paragraph}{Abstract}{18}{paragraph*.70}
+\contentsline {subsubsection}{Title}{18}{subsubsection*.71}
+\contentsline {paragraph}{Abstract}{18}{paragraph*.72}
+\contentsline {subsubsection}{Optimal Design of Unmanned Air Vehicles and Helicopter Rotors}{19}{subsubsection*.73}
+\contentsline {subsubsection}{Prevention of Abdominal Aortic Aneurysm Progression by Targeted Inhibition of Matrix Metalloproteinase Activity with Batimastat-Loaded Nanoparticles}{19}{subsubsection*.74}
+\contentsline {paragraph}{Abstract}{19}{paragraph*.75}
+\contentsline {subsubsection}{Some Aspects of Flow-Stress Determination Using a Gleeble Hot Torsion Machine}{20}{subsubsection*.76}
+\contentsline {paragraph}{Abstract}{20}{paragraph*.77}
+\contentsline {subsubsection}{Self-regulation of the primary auditory cortex attention via directed attention mediated by real-time fMRI neurofeedback is related to attentional control processes}{21}{subsubsection*.78}
+\contentsline {paragraph}{Abstract}{21}{paragraph*.79}
+\contentsline {subparagraph}{Bio}{21}{subparagraph*.80}
+\contentsline {subsubsection}{Data Mining and Mathematical Models for Optimal Scholarship Allocation for a State University}{22}{subsubsection*.81}
+\contentsline {paragraph}{Abstract}{22}{paragraph*.82}
+\contentsline {subsubsection}{Characterization of Hemodynamics in Cardio- and Cerebrovascular Systems}{22}{subsubsection*.83}
+\contentsline {paragraph}{Abstract}{22}{paragraph*.84}
+\contentsline {subsubsection}{Student speakers}{24}{subsubsection*.85}
+\contentsline {subsection}{\numberline {1.4.7}ME 2120: Statics}{24}{subsection.1.4.7}
+\contentsline {subsubsection}{Must-read stuff (Fall 2010)}{24}{subsubsection*.86}
+\contentsline {subsubsection}{General Materials of Interest}{25}{subsubsection*.87}
+\contentsline {subsubsection}{HW and Other Assignments}{25}{subsubsection*.88}
+\contentsline {subsection}{\numberline {1.4.8}ME 2210: Dynamics}{25}{subsection.1.4.8}
+\contentsline {subsubsection}{Materials}{25}{subsubsection*.89}
+\contentsline {subsubsection}{HW and Other Assignments}{25}{subsubsection*.90}
+\contentsline {subsubsection}{Solutions}{25}{subsubsection*.91}
+\contentsline {subsection}{\numberline {1.4.9}ME 4210/6210: Mechanical Vibration}{25}{subsection.1.4.9}
+\contentsline {subsubsection}{HW and Other Assignments}{26}{subsubsection*.92}
+\contentsline {subsubsection}{General Materials of Interest}{26}{subsubsection*.93}
+\contentsline {subsubsection}{Other Vibration Help}{26}{subsubsection*.94}
+\contentsline {subsection}{\numberline {1.4.10}ME 7210: Computational Methods in Structural Analysis}{26}{subsection.1.4.10}
+\contentsline {subsubsection}{Materials}{26}{subsubsection*.95}
+\contentsline {subsubsection}{Other Reference Materials}{27}{subsubsection*.96}
+\contentsline {section}{\numberline {1.5}Computer Help}{27}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Internet}{27}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Software}{27}{subsection.1.5.2}
+\contentsline {subsubsection}{Free while a student}{27}{subsubsection*.97}
+\contentsline {subsubsection}{Free forever}{28}{subsubsection*.98}
+\contentsline {paragraph}{Matlab}{28}{paragraph*.99}
+\contentsline {paragraph}{Octave (Matlab for free - kind of)}{28}{paragraph*.100}
+\contentsline {subsection}{\numberline {1.5.3}General}{28}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Indices and tables}{29}{section.1.6}
+\contentsline {chapter}{Index}{31}{section*.101}

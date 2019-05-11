@@ -1,0 +1,5 @@
+Options +Indexes
+AuthType basic
+AuthName "Campus Username/Password"
+AuthBasicProvider ldap
+Require valid-user 

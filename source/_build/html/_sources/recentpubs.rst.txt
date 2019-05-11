@@ -1,0 +1,34 @@
+Recent Publications
+########################
+
+- Beck, J.A., Brown, J.M., Scott-Emuakpor, O.E., Cross, C.J., and
+  Slater, J.C., "Dynamic Response Characteristics of Dual Flow-Path
+  Integrally Bladed Rotors," *Journal of Sound and Vibration*, 336 (2015) 150-163.
+
+- Beck, J.A., Brown, J.M., Kaczynski, A, Cross, C.J., and Slater,
+  J.C., "`Geometric Mistuning Reduced Order Models for Integrally
+  Bladed Rotors with Mistuned Disk-Blade Boundaries
+  <http://turbomachinery.asmedigitalcollection.asme.org/mobile/article.aspx?articleid=1938915>`__,"
+  *Journal of Turbomachinery*, doi:10.1115/1.4029122, Nov, 2014.
+
+- Beck, J.A., Brown, J.M., Slater, J.C., and Cross, C.J.,
+  "`Component-Mode Reduced-Order Models for Geometric Mistuning of
+  Integrally Bladed Rotors
+  <http://arc.aiaa.org/doi/abs/10.2514/1.J052420>`__," *AIAA Journal*,
+  2014, Vol. 52: 1345-1356.
+
+- Beck, J.A., Slater, J.C., Brown, J.M., and Lamont, G.B., "`Framework for
+  Creating Digital Representations of Structural Components Using
+  Computational Intelligence
+  Techniques <http://arc.aiaa.org/doi/abs/10.2514/1.J052565>`__," *AIAA
+  Journal, (2014)*, Vol. 52, No. 4, pp. 855-866.
+
+- Beck, J.A., Brown, J.M., Slater, J.C., and Cross, C.J., "Probabilistic
+  Mistuning Assessment using Nominal and Geometry Based Mistuning
+  Methods," *Journal of Turbomachinery*, Volume: 135 Issue: 5, Article
+  Number: 051004, Sept. 2013.
+
+- Shiryayev, O.V., Slater, J.C., and Brown, J.M., "`Feasibility of Using
+  Nonlinear Response Features for Crack Detection in Turbomachinery
+  Components, <http://arc.aiaa.org/doi/abs/10.2514/1.J052189>`__" *AIAA
+  Journal*, v 51, No. 9, p 2290-2294, Sept._2013. 

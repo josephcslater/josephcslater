@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=iso-8859-1" http-equiv="content-type">
+  <title>ME 460/660 Homework</title>
+</head>
+
+<body>
+<h1>Homework assignments, Fall 2007<br>
+</h1>
+
+<p><b>Also see the additional graduate problems</b><br>
+Listed by week assigned. (due the following Friday in class)</p>
+
+<p>Note: The current week's assignment may be modified up until 5PM
+Friday.</p>
+
+<p></p>
+
+<p>Week 1<br>
+</p>
+<ul>
+  <li>1: 1, 2, 3, 4, 5, 7, 8, 13, 15 (hint: 'help surf' in matlab), 21, 25<br>
+  </li>
+</ul>
+Week 2<br>
+
+<ul>
+  <li>1: 27, 28, 36, 39, 47, 59, 66, 72, 74, 77</li>
+</ul>
+Week 3<br>
+
+<ul>
+  <li>1: 48, 49, 50, 51, 78, 82, 90, 110</li>
+  <li>2: 3, 4<br>
+  </li>
+  <li>4: 30 (derive the equations of motion using Lagrange's equations)</li>
+</ul>
+Week 4<br>
+
+<ul>
+  <li>2: 9, 15, , 21, 26, 31, 33, 34, 40, 44, </li>
+  <li>Derive the equation of motion for a rotating unbalance system using
+    Lagrange's equation</li>
+</ul>
+Week 5 <br>
+
+<ul>
+  <li>2.49<br>
+  </li>
+</ul>
+Week 6<br>
+
+<ul>
+  <li>2: 51, 53, 55, 65, 87 (use vtb), 88 (use vtb)<br>
+  </li>
+  <li>TB2.2, TB2.4</li>
+</ul>
+Week 7<br>
+
+<ul>
+  <li>3: 1, 2, 6, 11, 14, 24, 31, redo exam<br>
+  </li>
+</ul>
+Week 8<br>
+
+<ul>
+  <li>In class problem: Plot the time response of a system excited by
+    repeated impulses. Plot the magnitudes of the coefficients (X) versus
+    frequency. Pick your own m, c, and k (make sure to plot the results in
+    the vicinity of resonance, though). c must be such that the system is
+    very lightly damped.</li>
+  <li>3: 7, 8, 15<br>
+  </li>
+</ul>
+<br>
+Week 9<br>
+
+<ul>
+  <li>4: 1, 2, 3, 4 (1-4 are really one long problem), 7, 8, 15, 40, 41, 54,
+    67 (you are expected to use matlab to save time, but should be able to
+    handle 2 DOF systems by hand)<br>
+  </li>
+</ul>
+<br>
+Week 10<br>
+<br>
+
+<ul>
+</ul>
+<ul>
+</ul>
+</body>
+</html>

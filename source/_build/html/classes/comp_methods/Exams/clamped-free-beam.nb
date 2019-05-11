@@ -1,0 +1,449 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     11257,        439]
+NotebookOptionsPosition[      9688,        378]
+NotebookOutlinePosition[     10024,        393]
+CellTagsIndexPosition[      9981,        390]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"X", "=", 
+  RowBox[{
+   RowBox[{"A", " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+   RowBox[{"B", " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+   RowBox[{"C", " ", 
+    RowBox[{"Sinh", "[", 
+     RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+   RowBox[{"D", " ", 
+    RowBox[{"Cosh", "[", 
+     RowBox[{"beta", " ", "x"}], "]"}]}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"General", "::", "\<\"spell1\"\>"}], 
+  RowBox[{
+  ":", " "}], "\<\"Possible spelling error: new symbol name \\\"\\!\\(beta\\)\
+\\\" is similar to existing symbol \\\"\\!\\(Beta\\)\\\". \\!\\(\\*ButtonBox[\
+\\\"More\[Ellipsis]\\\", ButtonStyle->\\\"RefGuideLinkText\\\", \
+ButtonFrame->None, ButtonData:>\\\"General::spell1\\\"]\\)\"\>"}]], "Message"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"B", " ", 
+   RowBox[{"Cos", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+  RowBox[{"D", " ", 
+   RowBox[{"Cosh", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+  RowBox[{"A", " ", 
+   RowBox[{"Sin", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+  RowBox[{"C", " ", 
+   RowBox[{"Sinh", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"eqn1", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"X", "/.", 
+     RowBox[{"x", "\[Rule]", "0"}]}], ")"}], "\[Equal]", "0"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"B", "+", "D"}], "\[Equal]", "0"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ans1", "=", 
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{"eqn1", ",", "D"}], "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{"1", ",", "1"}], "]"}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"D", "\[Rule]", 
+  RowBox[{"-", "B"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"eqn2", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"D", "[", 
+      RowBox[{"X", ",", "x"}], "]"}], "/.", 
+     RowBox[{"x", "\[Rule]", "0"}]}], ")"}], "\[Equal]", "0"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"A", " ", "beta"}], "+", 
+   RowBox[{"beta", " ", "C"}]}], "\[Equal]", "0"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ans2", "=", 
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{"eqn2", ",", "C"}], "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{"1", ",", "1"}], "]"}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"C", "\[Rule]", 
+  RowBox[{"-", "A"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"eqn3", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"D", "[", 
+       RowBox[{"X", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "2"}], "}"}]}], "]"}], "/.", 
+      RowBox[{"x", "\[Rule]", "l"}]}], ")"}], "\[Equal]", "0"}], "/.", 
+   RowBox[{"{", 
+    RowBox[{"ans1", ",", "ans2"}], "}"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "B"}], " ", 
+    SuperscriptBox["beta", "2"], " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+   RowBox[{"B", " ", 
+    SuperscriptBox["beta", "2"], " ", 
+    RowBox[{"Cosh", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+   RowBox[{"A", " ", 
+    SuperscriptBox["beta", "2"], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+   RowBox[{"A", " ", 
+    SuperscriptBox["beta", "2"], " ", 
+    RowBox[{"Sinh", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}]}], "\[Equal]", "0"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coefficient", "[", 
+  RowBox[{
+   RowBox[{"eqn3", "[", 
+    RowBox[{"[", "1", "]"}], "]"}], ",", "A"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", 
+    SuperscriptBox["beta", "2"]}], " ", 
+   RowBox[{"Sin", "[", 
+    RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+  RowBox[{
+   SuperscriptBox["beta", "2"], " ", 
+   RowBox[{"Sinh", "[", 
+    RowBox[{"beta", " ", "l"}], "]"}]}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"eqn4", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"D", "[", 
+       RowBox[{"X", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "3"}], "}"}]}], "]"}], "/.", 
+      RowBox[{"x", "\[Rule]", "l"}]}], ")"}], "\[Equal]", "0"}], "/.", 
+   RowBox[{"{", 
+    RowBox[{"ans1", ",", "ans2"}], "}"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "A"}], " ", 
+    SuperscriptBox["beta", "3"], " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+   RowBox[{"A", " ", 
+    SuperscriptBox["beta", "3"], " ", 
+    RowBox[{"Cosh", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "+", 
+   RowBox[{"B", " ", 
+    SuperscriptBox["beta", "3"], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+   RowBox[{"B", " ", 
+    SuperscriptBox["beta", "3"], " ", 
+    RowBox[{"Sinh", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}]}], "\[Equal]", "0"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"M", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Coefficient", "[", 
+       RowBox[{
+        RowBox[{"eqn3", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "A"}], "]"}], ",", 
+      RowBox[{"Coefficient", "[", 
+       RowBox[{
+        RowBox[{"eqn3", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "B"}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Coefficient", "[", 
+       RowBox[{
+        RowBox[{"eqn4", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "A"}], "]"}], ",", 
+      RowBox[{"Coefficient", "[", 
+       RowBox[{
+        RowBox[{"eqn4", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "B"}], "]"}]}], "}"}]}], 
+   "}"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        SuperscriptBox["beta", "2"]}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+      RowBox[{
+       SuperscriptBox["beta", "2"], " ", 
+       RowBox[{"Sinh", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}]}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        SuperscriptBox["beta", "2"]}], " ", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+      RowBox[{
+       SuperscriptBox["beta", "2"], " ", 
+       RowBox[{"Cosh", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        SuperscriptBox["beta", "3"]}], " ", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+      RowBox[{
+       SuperscriptBox["beta", "3"], " ", 
+       RowBox[{"Cosh", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}]}], ",", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["beta", "3"], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+      RowBox[{
+       SuperscriptBox["beta", "3"], " ", 
+       RowBox[{"Sinh", "[", 
+        RowBox[{"beta", " ", "l"}], "]"}]}]}]}], "}"}]}], "}"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{"Det", "[", "M", "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "2"}], " ", 
+  SuperscriptBox["beta", "5"], " ", 
+  RowBox[{"(", 
+   RowBox[{"1", "+", 
+    RowBox[{
+     RowBox[{"Cos", "[", 
+      RowBox[{"beta", " ", "l"}], "]"}], " ", 
+     RowBox[{"Cosh", "[", 
+      RowBox[{"beta", " ", "l"}], "]"}]}]}], ")"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ans3", "=", 
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{"eqn3", ",", "B"}], "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{"1", ",", "1"}], "]"}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"B", "\[Rule]", 
+  FractionBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "A"}], " ", 
+     RowBox[{"Sin", "[", 
+      RowBox[{"beta", " ", "l"}], "]"}]}], "-", 
+    RowBox[{"A", " ", 
+     RowBox[{"Sinh", "[", 
+      RowBox[{"beta", " ", "l"}], "]"}]}]}], 
+   RowBox[{
+    RowBox[{"Cos", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}], "+", 
+    RowBox[{"Cosh", "[", 
+     RowBox[{"beta", " ", "l"}], "]"}]}]]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"X", "/.", 
+       RowBox[{"{", 
+        RowBox[{"ans1", ",", "ans2"}], "}"}]}], ")"}], "/.", 
+     RowBox[{"{", 
+      RowBox[{"B", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", "sigma"}], " ", "A"}]}], "}"}]}], ")"}], "/", "A"}], 
+  "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "sigma"}], " ", 
+   RowBox[{"Cos", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+  RowBox[{"sigma", " ", 
+   RowBox[{"Cosh", "[", 
+    RowBox[{"beta", " ", "x"}], "]"}]}], "+", 
+  RowBox[{"Sin", "[", 
+   RowBox[{"beta", " ", "x"}], "]"}], "-", 
+  RowBox[{"Sinh", "[", 
+   RowBox[{"beta", " ", "x"}], "]"}]}]], "Output"]
+}, Open  ]]
+},
+WindowSize->{637, 750},
+WindowMargins->{{85, Automatic}, {Automatic, 0}},
+FrontEndVersion->"6.0 for Mac OS X x86 (32-bit) (April 20, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 434, 14, 27, "Input"],
+Cell[1027, 39, 385, 7, 34, "Message"],
+Cell[1415, 48, 400, 13, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1852, 66, 164, 5, 27, "Input"],
+Cell[2019, 73, 80, 2, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2136, 80, 190, 6, 27, "Input"],
+Cell[2329, 88, 74, 2, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2440, 95, 222, 7, 27, "Input"],
+Cell[2665, 104, 134, 4, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2836, 113, 190, 6, 27, "Input"],
+Cell[3029, 121, 74, 2, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3140, 128, 366, 12, 27, "Input"],
+Cell[3509, 142, 618, 19, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4164, 166, 144, 4, 27, "Input"],
+Cell[4311, 172, 291, 10, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4639, 187, 366, 12, 27, "Input"],
+Cell[5008, 201, 618, 19, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5663, 225, 750, 24, 43, "Input"],
+Cell[6416, 251, 1359, 45, 93, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7812, 301, 91, 2, 27, "Input"],
+Cell[7906, 305, 304, 10, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8247, 320, 190, 6, 27, "Input"],
+Cell[8440, 328, 446, 15, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8923, 348, 369, 13, 27, "Input"],
+Cell[9295, 363, 377, 12, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,37 @@
+ME 7210: Computational Methods in Structural Analysis
+=====================================================
+
+Materials
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Course Syllabus <ME7210Syll.html>`__
+
+- `Matlab code for graphically illustrating the Max-Min principle <maxminplot3d.m>`__
+
+- `Old Exams <Exams>`__
+
+- `Extra Notes <Notes>`__
+
+- `Homework <ME7210Homework.html>`__
+
+- `Notes (use university login) <Notes/me7210notes.pdf>`__
+
+Other Reference Materials
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Mathematica notebook applying Galerkin's method to a cantilever
+  beam with a tip mass (incomplete). <Tip-mass-beam.nb>`__
+
+- `Mathematica notebook applying Galerkin's method to a cantilever
+  beam with a tip mass (incomplete). (pdf) <Tip-mass-beam.pdf>`__
+
+- Craig, Roy R., *Structural dynamics: an introduction to computer methods,* Wiley, c1981.
+
+- Shames, I.H. and Dym, C.L., *Energy and Finite Element Methods in Structural Mechanics*, McGraw-Hill, 1985.
+
+- Weaver, W., Timoshenko, S., and Young, D.H., *Vibration problems in engineering*, Wiley, 1990.
+
+- Goldstein, H., *Classical Mechanics*, Addison-Wesley Press, 1950.
+
+- Tongue, B, *Principles of Vibration*, 2002.
+

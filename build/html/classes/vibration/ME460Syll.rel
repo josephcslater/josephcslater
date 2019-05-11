@@ -1,0 +1,72 @@
+;; RefTeX parse info file
+;; File: /Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex
+;; User: jslater (Joseph C. Slater)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/")
+
+(label-numbers)
+
+(bof "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex")
+
+(toc "toc" "    1 Instructor" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "1" "\\section{Instructor}" 923)
+
+(toc "toc" "    2 Communication" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "2" "\\section{Communication}" 1089)
+
+(toc "toc" "    3 Time and Place" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "3" "\\section{Time and Place}" 1851)
+
+(toc "toc" "    4 Office Hours" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "4" "\\section{Office Hours}" 1903)
+
+(toc "toc" "    5 Text" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "5" "\\section{Text}" 2264)
+
+(toc "toc" "    6 Prerequisites" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "6" "\\section{Prerequisites}" 2906)
+
+(toc "toc" "      6.1 Prerequisites by topic" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "6.1" "\\subsection{Prerequisites by topic}" 2955)
+
+("sec:prerequisites-topic" "s" "You are expected to know the following. You will be tested on them the third day of class. Please re" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil)
+
+(toc "toc" "    7 Course Contents" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "7" "\\section{Course Contents}" 4565)
+
+(toc "toc" "    8 Computer Usage" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "8" "\\section{Computer Usage}" 5056)
+
+(toc "toc" "    9 Grading and Performance" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "9" "\\section{Grading and Performance}" 7661)
+
+(toc "toc" "      9.1 Attendance" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.1" "\\subsection{Attendance}" 7960)
+
+(toc "toc" "      9.2 Prerequisites by topic (5\\%)" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.2" "\\subsection{Prerequisites by topic (5\\%)}" 8734)
+
+("prerequisitetopics" "s" "You will be quizzed on the prerequisites on the third day of class. Please review your old course no" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil)
+
+(toc "toc" "      9.3 Professionalism (5\\%)" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.3" "\\subsection{Professionalism (5\\%)}" 9164)
+
+("
+
+\\subsection{Homework (10\\%)" "s" "Homework problems will be posted on the course web page. Homework problems are collected every Frida" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" t)
+
+(toc "toc" "      9.4 Exams (60\\%)" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.4" "\\subsection{Exams (60\\%)}" 11038)
+
+(toc "toc" "      9.5 Labs (20\\%)" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.5" "\\subsection{Labs (20\\%)}" 12109)
+
+("sec:labs" "s" "Labs will be performed in \\href{http://www.cs.wright.edu/~jslater/viblab/viblab.html}{010 Russ}. Fou" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" t)
+
+(toc "toc" "      9.6 Graduate Work (20\\%)" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.6" "\\subsection{Graduate Work (20\\%)}" 12850)
+
+(toc "toc" "      9.7 Problem Solutions" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "9.7" "\\subsection{Problem Solutions}" 13269)
+
+(toc "toc" "        * Cheating" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 3 "  *" "\\subsection*{Cheating}" 13875)
+
+(toc "toc" "    10 Important Dates" "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex" nil 2 "10" "\\section{Important Dates}" 14453)
+
+(eof "/Users/jslater/Documents/CourseMaterial/Vibrations/Fa08/ME460Syll.tex")
+))
+

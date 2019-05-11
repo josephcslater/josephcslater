@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=iso-8859-1" http-equiv="content-type">
+  <title>ME 213-1 homework</title>
+</head>
+
+<body>
+Dynamics homework assignments, Fall 2008<br>
+Listed by week assigned.<br>
+
+
+<p>All homework problems are due before the start of the next class unless
+otherwise stated.<br>
+</p>
+
+<p>All homework is tentative until 3PM after class <strong>or</strong> time
+stamp on assignment is after class.</p>
+
+<table style="width: 400px; text-align: left; margin-left: 80px;" border="2"
+cellpadding="2" cellspacing="2">
+  <col>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">Week<br>
+      </td>
+      <td colspan="3" rowspan="1"
+      style="text-align: center; vertical-align: top;">Problems/Assignment
+        day (<font size="-0"><i><!--#config timefmt="%A, %B %d, %Y at %X"-->
+        <!--#flastmod virtual="homework.shtml"-->
+        </i></font><font size="-1"><i><!--#config timefmt="%A, %B %d, %Y at %X"-->
+        )<br>
+        </i></font></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Monday<br>
+      </td>
+      <td>Wednesday</td>
+      <td style="vertical-align: top; text-align: center;">Friday<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">1<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;"><a
+        href="Final.pdf">Statics Final Exam (due Monday),</a> 11.35, 42<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">11.51, 59, 63,
+        64,  76 <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">2<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">11.96, 99<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">plot x versus y
+        when x=t and y=t^2 for t=0:10 (first Matlab assignment does almost
+        this), 11.106, 111, 122, 129<br>
+        from statics: 4.17, 6.93, 9.72<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">3<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">(from statics:
+        9.119), 11.142, 11.164<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">Prove the blocks
+        move, put the dynamic equations in matrix form and solve them,
+        11.136, 11.141, 11.166, 11.172, 12.5, 12.20<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">4<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Prove the blocks
+        move. Solve for the unknowns in the dynamic in-class problem. 12.37,
+        12.52 <br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">12.12, 12.61,
+        12.73, 12.78, 13.11, 13.15, 13.19<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">5<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">13.24, 13.32,
+        13.39<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">13.40, 45, 50, 56,
+        67, 70<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">6<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">13.123, 146,
+        171<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">13.40, 66, 96,
+        122, 132, 157, 165<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">7<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">13.70, 13.96,
+        14.6, 14.22 <br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">14.27, 14.40,
+        14.45, 14.55<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">8<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">15.11, 15.39,
+        15.49, 15.57<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">13.70, 13.127,
+        15.86, 93, 119<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">9<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">15.105, 15.120<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">Complete class
+        example, plot Ax, Ay and A as a function of theta between 0 and pi/2,
+        14.57, 15.59, 16.12, 16.94, 16.103<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">10<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">17.9, 26<br>
+      </td>
+      <td></td>
+      <td style="vertical-align: top; text-align: center;">Suggested: 16.24,
+        58, 81, 89, 17. 15, 23, 30<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<font size="-1"><i><!--#config timefmt="%A, %B %d, %Y at %X"-->
+This page was last modified on <!--#flastmod virtual="homework.shtml"-->
+.</i></font><font size="-1"><i><!--#config timefmt="%A, %B %d, %Y at %X"-->
+</i></font>
+<div style="margin-left: 80px;">
+<font size="-1"><i><br>
+<br>
+</i></font></div>
+<font size="-1"><i><br>
+<br>
+<br>
+</i></font><ul>
+  <font size="-1"><i></i></font></ul>
+<ul>
+  <font size="-1"><i></i></font></ul>
+</body>
+</html>

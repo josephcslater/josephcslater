@@ -1,0 +1,49 @@
+
+
+
+ME 3210: System Dynamics
+########################
+
+
+
+
+..
+   ## Materials
+..
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 2
+
+   ME3210Syll
+   sdhw
+   Optional reference: <http://ncees.org/exams/study-materials/download-fe-supplied-reference-handbook>
+   Sample models <http://www.cecs.wright.edu/people/faculty/jslater/classes/systemdynamics/models>
+   Old Exams <http://www.cecs.wright.edu/people/faculty/jslater/classes/systemdynamics/Exams>
+
+   
+..
+   - Optional reference: `Fundamentals of Engineering Handbook`_
+   - `Syllabus`_
+   - :download:`A Typical lecture <simulink.jpg>` (The course is `Simulink`_ Based)
+   - :doc:`Homework <sdhw>`
+   - `Sample models`_
+   - `Old Exams`_
+   ..
+      - `ME 3210 Course Syllabus`_, `PDF format`_
+
+
+
+
+.. _Homework: :doc:`ME3210Homework`
+.. _PDF format: SystemDynamicsSyll.pdf
+.. _Fundamentals of Engineering Handbook: http://ncees.org/exams/study-materials/download-fe-supplied-reference-handbook
+.. _Sample models: systemdynamics/models
+.. _Simulink: http://www.mathworks.com/examples/product-group/simulink-physical-modeling
+.. _ME 3210 Course Syllabus: SystemDynamicsSyll.html
+.. _Old Exams: systemdynamics/Exams
+.. _Syllabus: ME3210Syll.html
+
+
+
+

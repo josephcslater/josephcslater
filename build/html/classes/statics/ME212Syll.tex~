@@ -1,0 +1,199 @@
+\documentclass[10pt]{article}
+\usepackage{latexsym,url}
+
+
+\usepackage{ifpdf}
+\ifpdf
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{-.5in}
+\setlength{\baselineskip}{18pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+
+\fi
+
+%\usepackage{enumerate}
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{-.5in}
+\setlength{\baselineskip}{18pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\usepackage[colorlinks=true]{hyperref}
+%\hypersetup{colorlinks=true}
+\newcommand{\comp}[1]{{\small\textsf{#1}}}
+\title{ME 212: Statics}
+\author{}
+\date{}
+\newcommand{\matlab}{\href{http://www.mathworks.com}{M{\small ATLAB}}}
+
+\begin{document}
+\maketitle
+\section*{Instructor}
+Joseph C.~Slater, PhD, PE\\
+238 Russ Engineering Center\\
+\href{http://www.cs.wright.edu/~jslater}{\url{http://www.cs.wright.edu/~jslater}}\\
+775-5040
+
+\section*{Communication}
+Please see my extensive web pages for contact information. It is the most up to date. 
+
+
+ Email will be sent regularly to your Wright State email accounts.  This will allow \href{http://www.cs.wright.edu/~jslater}{me} to contact you regarding the class between lectures.  If you would rather have your email forwarded somewhere else, please read how to do that.  This information and the answers to most any question you may have regarding the course and computer usage (including old exams, and the syllabus) can be found on my \href{http://www.cs.wright.edu/~jslater/classes}{class resources page}.
+
+\section*{Time and Place}
+Tuesday-Thursday, 12:20-2:00\\
+144 Russ Engineering Center
+
+\section*{Office Hours}
+Will change depending on student schedules. Currently 3-4  Tuesday and Thursday, and by appointment. Please use email to contact me when you have questions. I check my email many times each day. You will get a quicker response by {email} than by any other mode of communication. Please see  \href{http://www.cs.wright.edu/~jslater/phpicalendar}{my calendar} before driving to campus during a time other than office hours and follow up by giving me a call. It's not unusual for me to leave my office for an unscheduled meeting. I don't want you wasting your time. 
+
+\section*{Text}
+Engineering Mechanics: Statics by Beer, Johnston, Mazurek, Eisenberg.
+Also see the \href{http://www.cs.wright.edu/~jslater/classes}{course web page}. 
+
+\section*{Software}
+\noindent Mathematica, \textsc{Matlab}, \href{http://www.octave.org}{Octave}, any version (student or professional version) \\
+These are available through your WSU account (except Octave, which you may download and use for free on your home computer), but you may find it convenient to buy at the bookstore and install on your home computer. They will run on any platform.
+
+Please read the text and use the on-line help.  Syntax issues are sufficiently discussed or displayed in these resources.  It is highly recommended that you learn to use \href{http://www.wolfram.com}{Mathematica} and \matlab\  on your UNIX account as soon as possible. Each has strengths and weaknesses, and they can be of great help with more complex problems, especially on your project. Examples are given for all three in my \href{http://www.cs.wright.edu/~jslater/classes/materials/CompLit.pdf}{Computer Literacy course notes}. 
+%\noindent Use either \comp{gandalf}, \comp{odin}, \comp{reality} or \comp{gamma},  depending on system loads (log in and use the \comp{uptime} command.  Please see the computer consultants on the 2nd floor across from the elevators if you have difficulties with your accounts.
+
+\section*{Prerequisites}
+(MTH 231 or EGR 101) and PHY 240
+
+\subsection*{by topic}
+\label{sec:topic}
+
+\begin{enumerate}
+\item Introductory Mathematics for Engineering Applications or Calculus III (Applications of the definite integral, polar coordinates, and parametric equations. Infinite series, power series, and vector algebra in the plane and space.),
+\item General Physics (Introductory survey of mechanics for science and engineering students.).
+\end{enumerate}
+
+\section*{Course Contents}
+Each topic is intended to last two lectures, with the exception of the first, which should take 1, and the third, which should take 3. 
+\begin{enumerate}
+\item Lecture 1: Review of Vector Analysis
+\item Lectures 2-3: Free-Body Diagrams and Equilibrium of Particles
+\item Lecture 4: Dot product and cross product (chapter 3)
+\item Lecture 5-6: Equilibrium of rigid bodies in 2-D
+\item Lectures 7-8: Equilibrium of rigid bodies in 3-D
+\item Lecture  9: Trusses
+\item Lecture 10-11: Frames and Machines
+\item Lecture 12: Review/catch up day
+\item Lectures 13-14: First moments of area and centroids
+\item Lecture 15: Distributed loads, Volumes
+\item Lecture 16: Forces in beams
+\item Lecture 17: Friction
+\item Lecture 18: Second Moments of Areas
+\item Lecture 19-20: Review
+\end{enumerate}
+
+\section*{Grading}
+\subsection*{Attendance}
+Attendance at lectures is optional and you are not assigned a specific grade for attendance. However, lack of attendance followed by poor performance or asking for material missed for no good reason will be reflected in your professionalism grade. If you miss class, you are responsible for obtaining missed material, including assignments, from another student. I will not repeat with you material covered in class if you do not attend.
+
+\subsection*{Prerequisites by topic (5\%)}
+You are expected to know the following.  You will be tested on them
+the third day of class.  Please review your old course notes and texts:
+\begin{enumerate}
+        \item Solution of multiple equations, multiple unknowns.  
+        \item Find the equation of a line from two points.
+        \item Take derivatives of a function.
+        \item Integrate a function between two points.
+        \item Find the minimum of a function.
+        \item Vector addition.
+        \item Vector subtraction.
+        \item Vector dot product.
+        \item Vector cross product.
+        \item Free body diagram of a point mass in 2-D.
+        \item Equation of Equilibrium for a point mass in 2-D.
+\end{enumerate}
+
+\subsection*{Homework (10\%)}
+\href{http://www.cs.wright.edu/~jslater/classes/statics/homework.shtml}{Homework is assigned for the entire quarter.}  Each homework problem is worth 1 point.  You are encouraged to work together in small groups, but keep in mind that homework is assigned in order to help you learn and keep up with the course material.  You are expected to learn how to use your \emph{matrix capable calculator}\footnote{This is a tool invented in the 20th century. Please obtain one before we are too far into the 21st.} in order to solve more complex problems.  This will benefit you during quizzes.  You are also encouraged to do additional problems out of the text for practice.  The assigned problems are the \emph{minimum} necessary to master the material.  \emph{The only way to learn the skills taught in this course is to apply them.} Homework may not be turned in late.  Solutions covered in class immediately after homework is due.  It's not fair to others to hold up going over solutions because of a few late assignments.  It is strongly encouraged that you complete late assignments for your own benefit.  Please see me if you need help with the homework.  Homework grades, unlike other grades,  will be curved such that the average homework grade is a \emph{B}.
+
+\subsection*{Professionalism (5\%)}
+Professionalism is a measure of your behavior regarding expected practice as an engineer. This includes aspects such as attendance, note taking, consistency of performance, tenacity in problem solution, leadership, legibility and organization of problem solutions, clarity of communication, etc. For details on expected behavior, please consult \emph{The Unwritten Rules of Engineering} by W.J.~King, with revision by  J.G.~Skakoon. This book is available at the library. However, for your own professional development, I highly recommend that you \href{http://members.asme.org/catalog/ItemView.cfm?ItemNumber=801624}{own a personal copy}. If you read an older edition of the book (prior to Skakoon), please be attentive to the fact that some of the comments, especially those regarding polishing shoes, are considered rather quaint today. Appearance is not quite as important today is it was then. 0.5 will be deducted from your professionalism score each time you receive less than a 7 on a quiz \emph{and} do not see me personally during the next week to clear up confusion. 
+
+\subsection*{Quizzes (40\%)}
+There will be 5 quizzes graded on a straight scale ($\geq 90 = A,\geq 80 = B, \geq 70 = C, \geq 60 = D, < 60 = F$), one the last day of each even numbered week.  %Quizzes will be given Thursday on even-numbered weeks during the quarter. 
+One quiz grade will be dropped (for low scores, illness, or any other malady that may come your way).  All quizzes are closed book, closed notes.  Make-ups are given only with a Doctor's note.  It is your responsibility to make sure you have no conflicts, within your control, with these times.  No ``formula sheets'' will be allowed, but difficult equations will be given.  Assume an equation won't be given unless explicitly stated otherwise. Quizzes will be returned as soon as possible.  Solutions will be discussed during the lecture following the quiz.  All grading discrepancies must be brought up in writing no later than one week after the quiz is returned.  Hand in the quiz with a simple note describing your contentions.
+
+\subsection*{Design Project (10\%)}
+A group design project will be assigned during the quarter. You may not consult other members of the class (outside of your group) for assistance on the project. You may (and are expected to) consult the library and the instructor.
+
+The design project is set up as a competition. You will have to write a pre-proposal, that forms, essentially, a draft of your design report. I will provide you feedback on report writing within one week. Your final proposal will be ranked against performance of this and previous classes. Only one project may `win' a score of 100 (However, I am not obligated to give a 100\ldots in the real world, sometimes no contract is awarded.). Other projects will be relegated to scores of 95 and below. Any information you generate or obtain should be treated as proprietary because this \emph{is} a competition.  
+
+At the conclusion of the project each member of the group is advised to grade the other members of the group. You have 100 points to divide amongst your fellow group members and yourself. I use these ratings to compensate for individuals who do not pull their own weight in a group, or who excel within a group. 
+
+\subsection*{Final Exam (30\%)}
+Your final grade will be no less than one letter grade below your final exam grade, presuming you pass the project. If you receive a passing grade on the  project and a 100 on the final exam, you will receive an `A' in the class. 
+
+
+
+%\subsection*{Programming/Computer Usage}
+%Please read the text and use the on-line help.  Syntax issues are sufficiently discussed or displayed in the help. Only after reading the help should you contact me.  It is highly recommended that you learn to use Mathematica and \matlab\ on your UNIX account as soon as possible. Each has strengths and weaknesses. Examples are given on all three in my \href{http://www.cs.wright.edu/~jslater/materials/CompLit.pdf}{Computer Literacy course notes}.
+
+\subsection*{Problem Solutions}
+Problem solutions must be neat and orderly.  They must include each of the following, when applicable.  You must be capable of making that decision.  For example: To use Newton's law, you must draw a free-body diagram.  Free body diagrams don't make sense when not applying either Newton's laws or variants of Newton's laws, i.e.~sketches for determining properties of areas, etc. All work must be done on 8.5  in.~$\times$ 11 in.~paper.
+\begin{enumerate}
+        \item What are you looking for?  Briefly.  For example: \emph{The force in
+        cable $AB$}.
+
+        \item \label{it:laws} What laws apply?  What principles apply?  For
+        example: Newton's law-translation (alternatively can be stated in
+        equation form: $\sum{\mathbf{F}}=\mathbf{0}$).  You must list all laws
+        and principles that you will apply in solving the problem. 
+        Equilibrium will be the most common in Statics.
+
+        \item Sketch \emph{and/or} free body diagram (FBD).  You must have at
+        least one except under the most unusual circumstances where neither applies.
+
+        \item List of known quantities, list of \emph{all} vectors to be used,
+        including the known and unknown variables in the vectors.  This is an
+        organizational toolkit for substituting into item \ref{it:laws}.
+
+        \item Generation of the set of equations with substitutions made. 
+        Solution if simple, set of equations to be solved if not.  Solution is
+        always expected on homework, using Mathematica at your discretion. 
+        Expectation of solution on quizzes will be declared.  If solution is
+        not expected on a quiz, the set of equations that must be solved, and
+        the procedure for solving them must be stated.
+
+        \item When you generate a solution, \emph{does the result make sense}? 
+        As engineers, you must have insight as to whether or not an answer
+        seems reasonable \emph{before} you solve the problem.  How long is a
+        table?  Two to 12 feet would be a reasonable range.  If you get three
+        miles long, you should know that the answer is wrong.
+\end{enumerate}
+
+A \href{http://www.cs.wright.edu/~jslater/classes/materials/frmt.pdf}{template} is available for use at the start of the quarter, while problems are short enough to fit the template. 
+
+\subsection*{Cheating}
+\emph{\textbf{Don't}}. I helped write \href{http://www.wright.edu/students/judicial/integrity.html}{the university rules}, and I will pursue them when warranted. 
+
+\emph{Cheating is defined as}: Copying the solution of a problem from any source (including the solution manual). Using any source other than specified during a quiz or exam to solve the problem.  Taking credit for work that was copied from another source is plagiarism and considered cheating. 
+
+\subsection*{Important Dates}
+Prerequisite quiz: First day after one full week of classes.
+
+\noindent{Quizzes} are given on the last day  of weeks 2, 4, 6, 8, and 10.\\
+%\noindent \emph{Exception:} The first course quiz will be during the 4th lecture. 
+
+
+%To be decided.
+%\begin{tabular}{ll}
+\noindent{}Final Exam: November 16th, 1-3 PM
+
+\noindent Please see \href{http://www.cs.wright.edu/~jslater/calendar.shtml}{my calendar} for verification of dates.
+%\end{tabular}
+
+
+
+\end{document}
+% Local Variables:
+% TeX-header-end: "% End-Of-Header"
+% TeX-command-default: "LaTeX"
+% TeX-trailer-start: "% Start-Of-Trailer"
+% TeX-master: t
+% End:

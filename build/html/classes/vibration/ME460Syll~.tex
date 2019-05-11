@@ -1,0 +1,159 @@
+\documentclass[10pt]{article}
+%\usepackage{times}
+%\usepackage{latexsym}
+%\usepackage{xspace}
+
+
+
+
+
+\usepackage{ifpdf}
+\ifpdf
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{-.5in}
+\setlength{\baselineskip}{18pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\usepackage{pdfsync}
+\fi
+
+\usepackage{sectsty,fancyhdr,lastpage} 
+%\usepackage[pdfmark,colorlinks]{hyperref}
+
+\usepackage[colorlinks]{hyperref}
+\subsectionfont{\normalsize\emph} 
+
+\sectionfont{\large}
+
+\pagestyle{fancy}
+\cfoot{\thepage\ of \pageref{LastPage}}
+\chead{}
+\lhead{}
+\rhead{}
+\renewcommand{\headrulewidth}{0pt}
+\title{ME 460/660: Mechanical Vibrations}
+\date{}
+\author{}
+\newcommand{\comp}[1]{{{\small\textsf{#1}}}}
+\newcommand{\mc}[1]{\comp{#1}}% matlab
+\newcommand{\matlab}{\href{http://www.mathworks.com}{M{\small ATLAB}}}
+
+\begin{document}
+\maketitle
+
+\section{Instructor}
+Dr.~Joseph C.~Slater, 238 Russ Engineering Center, 775-5040\\
+\href{http://www.cs.wright.edu/~jslater}{http://www.cs.wright.edu/~jslater}
+
+\section{Communication}
+Please see my \href{http://www.cs.wright.edu/~jslater/syllabi.html}{class resources page} for contact information. It is the most up to date. 
+
+ Email will be sent regularly to your engineering UNIX accounts.  This will allow us (\href{http://www.cs.wright.edu/~jslater}{myself} and the \href{mailto:me460ta@cs.wright.edu}{GTAs}) to contact you regarding the class between lectures/labs.  If you would rather have your email forwarded somewhere else, please read how to do that.  This information and the answers to most any question you may have regarding the course and computer usage (including old exams, and the syllabus) can be found on my \href{http://www.cs.wright.edu/~jslater/syllabi.html}{class resources page}.
+
+
+\section{Time and Place}
+Tuesday/Thursday, 4:10-5:25, 025 Millett
+
+\section{Office Hours}
+Tentative: Will change depending on student schedules. 4-5 PM, Monday and Wednesday, and by appointment. Please try email first to contact me when you have questions outside of office hours.  I check my email many times each day, and usually on weekends. You will get a quicker response by email than by any other mode of communication.
+
+\section{Text}
+Inman, D.J., \textit{Engineering Vibration: Second Edition}.  - Required\\
+\matlab\  Manual - May be useful, but manuals are available in 
+the computer lab, online help is available through the online \comp{help}, 
+\comp{lookfor} and \comp{helpdesk} commands, as well as through the GUI. Also see the \href{http://www.cs.wright.edu/\~jslater/vibration.html}{course web page} for free short manuals. You can also edit any of the \href{http://www.cs.wright.edu/vtoolbox}{vibration toolbox} codes for examples on how to code in matlab. Just type \comp{edit vtb1\_1} in \textsc{Matlab} to edit the file \comp{vtb1\_1.m}. 
+
+\section{Prerequisites}
+ME 213, Dynamics\\
+EE 321, Linear Systems 1
+ 
+\subsection{Prerequisites by topic}
+\label{sec:prerequisites-topic}
+You are expected to know the following.  You will be tested on them the third day of class.  Please review your old course notes and texts from linear systems, dynamics, and differential equations. Require prerequisite knowledge includes:
+\begin{enumerate}
+        \item Solution of homogeneous 1st and 2nd order linear ordinary differential
+        equations.
+        \item Solution of  1st and 2nd order linear ordinary differential
+        equations to step, ramp and sinusoidal forcing functions.
+        \item Rigid body dynamics: Combining Newton's law and kinematics to 
+        write the governing equation/s of motion for single degree of 
+        freedom systems. 
+%       \item An understanding of the convolution integral.
+        \item Ability to find the Fourier series representation of a 
+        repeating function.
+        \item Ability to solve linear differential equations using Laplace 
+        transforms.
+\end{enumerate}
+If you have not ben taught this material in your prerequisite courses, it is vital that you communicate this to me immediately. I will, in turn, immediately pass this information on to the instructor of your prerequisite class (as appropriate), and help you rectify the situation. 
+
+An inability to perform these tasks with accurately and consistency soon after the start of the course will immediately damage your ability to perform.
+\section{Course Contents}
+\begin{enumerate}
+        \item Introduction To Free Vibration And The Free Response (Chapter 1)
+        \item Response To Harmonic Excitation (Chapter 2)
+        \item General Forced Response (Chapter 3)
+        \item Multiple-Degree-Of-Freedom Systems (Chapter 4)
+        \item Design For Vibration Suppression (Chapter 5)
+        \item Grad Students Only: Distributed Parameter Systems (Chapter 6)
+        \item Experimental Vibration Analysis
+\end{enumerate}
+
+
+\section{Computer Usage}
+Programming must be done in \matlab\  version 4, 5 or 6 (student or professional version), or one of its free clones (\href{http://www.octave.org/}{Octave} or \href{http://www-rocq.inria.fr/scilab/}{Scilab}), and you are expected to take advantage of the free \href{http://www.cs.wright.edu/vtoolbox}{Vibration Toolbox}.  The syntax is not exactly the same as for \matlab, however it is similar enough that the Vibration Toolbox is easily transportable. In addition, the price is right (free). Octave does run faster for many calculations. The Engineering Vibration Toolbox will not work on Scilab completely as-is, but the changes that need to be made are small and relatively easy. The Vibration Toolbox is ported to Octave.  
+
+I may be consulted on programming algorithms, but I cannot assist in debugging programs or answering questions on syntax that are readily answered by typing \comp{help ``topic''}(no quotes),  \comp{lookfor ``topic''}, or other manuals. Please RTFM\footnote{Often misunderstood, this stands for ``read the \emph{fine} manual''} or consult the GTA\footnote{Hemanth Armarchinta, hamarchi@cs.wright.edu}.  A tutorial on \matlab, Unix and Mathematica (the latter is not important to this class) is available on the \href{http://www.cs.wright.edu/people/faculty/jslater/vibration.html}{course resource page}.  I suggest that you print it out and read it.  Other more extensive resources are also available.  Syntax issues are sufficiently discussed or displayed in these resources.  The \href{http://www.cs.wright.edu}{college web pages} also have additional help resources. 
+
+It is highly recommended that you learn to use \matlab\  on your UNIX account as soon as possible.  The Student Edition of the Vibration Toolbox Version 5 is \emph{already installed} on your engineering accounts.  This will allow you to use the Engineering Vibration Toolbox from your account on \comp{gandalf} to aid in learning the material.  You are expected to use the toolbox to assist you with homework.  You will be required to use parts of it for your lab work.  Please refer to the manuals in the computer labs and the hand-out provided in class.  Also note that all of your lab data will be available through your UNIX account.  If you use \matlab\  on your personal computer, \emph{you} will be responsible for installing the Engineering Vibration Toolbox on your computer and obtaining any necessary lab data from your UNIX account.
+
+\section{Grading and Performance}
+The following are my expectations for performance and associated weightings for grades. Guaranteed grades in the course are ($\geq 90 = A,\geq 80 = B, \geq 70 = C, \geq 60 = D, < 59 = F$). The instructor reserves the right to lower any or all of the thresholds. 
+
+
+\subsection{Attendance}
+\begin{enumerate}
+\item Attendance at lectures is optional and you are not assigned a specific grade for attendance. However, lack of attendance followed by poor performance or asking for material missed for no good reason will be reflected in your professionalism grade. If you miss class, you are responsible for obtaining missed material, including assignments, from another student. I will not repeat with you material covered in class if you do not attend.
+
+\item Attendance in labs is mandatory.  If you miss a lab, you must make it up.  You must receive a passing grade for each lab assignment in order to complete the class.  See the section on labs.
+\item Bonus points may be awarded for participation (see Professionalism).
+\end{enumerate}
+
+\subsection{Prerequisites by topic (5\%)}
+\label{prerequisitetopics}
+You will be quizzed on the prerequisites  on the third day of class.  Please review your old course notes and texts from linear systems, dynamics, and differential equations. Please see section \ref{sec:prerequisites-topic} for an itemized list of topics. Further, please see the example \href{http://www.cs.wright.edu/~jslater/materials/ME460TopicExam.pdf}{prerequisite quiz}.
+
+\subsection{Professionalism (5\%)}
+Professionalism is a measure of your behavior regarding expected practice as an engineer. This includes aspects such as attendance, note taking, consistency of performance, tenacity in problem solution, leadership, legibility and organization of problem solutions, clarity of communication, etc. For details on expected behavior, please consult \emph{The Unwritten Rules of Engineering} by W.J.~King, with revision by  J.G.~Skakoon. This book is available at the library. However, for your own professional development, I highly recommend that you \href{http://members.asme.org/catalog/ItemView.cfm?ItemNumber=801624}{own a personal copy}. If you read an older edition of the book (prior to Skakoon), please be attentive to the fact that some of the comments, for example those regarding polishing shoes, are considered rather quaint today. Appearance is not quite as important today is it was then.  
+
+\subsection{Homework (10\%)}
+Homework problems will be assigned at the end of each lecture. Homework problems are collected every Thursday, and you have no less than one week to do them.   
+Each homework problem is worth 1 point.  Your final homework score is your average score of all homework problems assigned.  You are encouraged to work together in small groups, but keep in mind that homework is assigned in order to help you learn and keep up with the course material. 
+Homework may not be turned in late, but it is strongly encouraged that you complete late assignments for your own benefit. Please see me if you need help with the homework. You are also encouraged to do additional problems out of the text for practice on your own. The only way to learn the skills taught in this course is to apply them. Homework grades will be curved to a class average of .8 points per problem completed or above.
+
+\subsection{Exams (60\%)}
+There will be one test and a final exam graded on a near-straight scale ($\geq 90 = A,\geq 80 = B, \geq 70 = C, \geq 60 = D, < 59 = F$).  I  adjust for the difficulty of exams by scaling recorded scores. Cut-offs for each letter-grade will be reported when tests are returned.  The final exam will count as two tests and will be comprehensive.  The midterm grade plus the final exam grade (counted twice) yields three grades, one of which may be dropped.  Tests will be returned as soon as possible.  Solutions will be discussed during the lecture following the exam if time permits, otherwise solutions will be posted.  All grading discrepancies must be brought up in writing no later than one week after the exam is returned.  A simple note describing your contentions will do.  All work must be done on the provided exam book using pencil or black ink. The \href{http://www.cs.wright.edu/~jslater/materials/formulasheet.pdf}{provided formula sheet} should be brought to the exam. No modifications to the sheet are allowed. 
+
+\subsection{Labs (20\%)}\label{sec:labs}
+Labs will be performed in  \href{http://www.cs.wright.edu/~jslater/viblab/viblab.html}{139 Russ}. Four experimental and four computational/design labs will be assigned during the lab sessions.  See the lab handouts (also posted on the web) for more details.  Chapter 8 of the textbook is a useful resource on experimental techniques. Also see my on-line \href{http://www.cs.wright.edu/~jslater/materials/Complex_Solution.pdf}{Extra-Notes}. Please read the appropriate sections of the text before coming to the lab.  All labs must be completed to receive a passing grade in the course.  Lab reports will be worth a combined total of 20\%.  You will be tested on exams regarding your experience and learning in the lab.
+
+\subsection{Graduate Work (20\%)} Graduate students will be expected to perform additional homework assignments.  You will be responsible for them on the final exam.  Graduate students may also be assigned  topics beyond those in chapter 6.  Undergraduates who perform the extra graduate work may use these points as bonus points.  Note: it is not possible to ``wing it'', go without studying, and get partial credit.
+
+\subsection{Problem Solutions} All problem solutions, whether on homework or exams, should be neat and orderly.  They should begin with a brief problem statement and figure (Elaborate drawings are not expected).  A free-body-diagram is REQUIRED if Newton's law is applied.  If Newton's law is applied, and no free-body diagram is given, no partial credit will be given.  A brief description of each major step taken is necessary (as I do when giving lecture notes).  Incomprehensible solutions will not receive partial credit.  All work must be done on 8.5 in.~by 11 in.~paper using pencil or black ink.
+
+\section{Cheating}
+\emph{\textbf{Don't}}. I helped write \href{http://www.wright.edu/students/judicial/stu_integrity.html}{the university rules}, and I will pursue them when warranted. 
+
+\section{Important Dates}
+
+\begin{tabular}{lll}
+       October 10&Class time &Midterm \\
+       November 14& 5:45-7:45 & Final Exam 
+\end{tabular}
+
+\end{document}
+% Local Variables:
+% TeX-header-end: "% End-Of-Header"
+% TeX-command-default: "PDFLaTeX"
+% TeX-trailer-start: "% Start-Of-Trailer"
+% TeX-master: t
+% End:

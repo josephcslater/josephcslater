@@ -1,0 +1,150 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.2'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      2569,         95]*)
+(*NotebookOutlinePosition[      3227,        118]*)
+(*  CellTagsIndexPosition[      3183,        114]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+Cell["Short Problems", "Subtitle"],
+
+Cell[CellGroupData[{
+
+Cell["1", "Subtitle"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(y1 = Sin[Pi\ x]\)], "Input"],
+
+Cell[BoxData[
+    \(y1n = Integrate[y1^2, {x, 0, 1}]\)], "Input"],
+
+Cell[BoxData[
+    \(y1 = y1/Sqrt[y1n]\)], "Input"],
+
+Cell[BoxData[
+    \(y2 = x\)], "Input"],
+
+Cell[BoxData[
+    \(y2n = Integrate[y2^2, {x, 0, 1}]\)], "Input"],
+
+Cell[BoxData[
+    \(y2 = y2/Sqrt[y2n]\)], "Input"],
+
+Cell[BoxData[
+    \(f1 = y1\)], "Input"],
+
+Cell[BoxData[
+    \(f2hat = f1 - Integrate[f1\ y2, {x, 0, 1}] y2\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(f2 = Simplify[%/Sqrt[Integrate[%^2, {x, 0, 1}]]]\)], "Input"],
+
+Cell[BoxData[
+    \(\@\(2\/\(\(-6\) + \[Pi]\^2\)\)\ \((\(-3\)\ x + \[Pi]\ Sin[\[Pi]\ \
+x])\)\)], "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"5.2 for Macintosh",
+ScreenRectangle->{{0, 1920}, {0, 1135}},
+CellGrouping->Manual,
+WindowSize->{520, 683},
+WindowMargins->{{4, Automatic}, {Automatic, 4}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+Cell[1754, 51, 34, 0, 52, "Subtitle"],
+
+Cell[CellGroupData[{
+Cell[1813, 55, 21, 0, 52, "Subtitle"],
+
+Cell[CellGroupData[{
+Cell[1859, 59, 48, 1, 27, "Input"],
+Cell[1910, 62, 65, 1, 27, "Input"],
+Cell[1978, 65, 50, 1, 27, "Input"],
+Cell[2031, 68, 39, 1, 27, "Input"],
+Cell[2073, 71, 65, 1, 27, "Input"],
+Cell[2141, 74, 50, 1, 27, "Input"],
+Cell[2194, 77, 40, 1, 27, "Input"],
+Cell[2237, 80, 77, 1, 27, "Input"],
+
+Cell[CellGroupData[{
+Cell[2339, 85, 81, 1, 27, "Input"],
+Cell[2423, 88, 106, 2, 51, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

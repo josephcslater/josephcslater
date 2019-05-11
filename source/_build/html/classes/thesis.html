@@ -1,0 +1,204 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Theses/Dissertations using LaTeX &#8212; Joseph C. Slater</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="EGR 8910: Ph.D. Seminar" href="seminar.html" />
+    <link rel="prev" title="Homework" href="VTHW.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+    <link rel="apple-touch-icon" href="../_static/js.jpg" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="theses-dissertations-using-latex">
+<h1>Theses/Dissertations using LaTeX<a class="headerlink" href="#theses-dissertations-using-latex" title="Permalink to this headline">¶</a></h1>
+<p>LaTeX is hands down the best tool to use when writing your thesis or
+dissertation. Instead of arguing the point, let me make a simple
+statement: Users of LaTeX know how to use MS Word, but use LaTeX
+instead. Users of MS Word don’t know how to use LaTeX. It’s that simple. If your adviser won’t let you use LaTeX, my condolences. Your document
+will lack the polish of a professional typesetting system (Do you think
+journals typeset using MS Word?), and you will be tortured by cross reference and citation issues and inconsistencies. You likely use MS Word
+because that’s all you’ve ever known. Hopefully you’ll stopped crawling
+(using MS Word) and now walk upright (use LaTeX). If you don’t, c’est la
+vie. (Your loss.) If you want to know a little about why to use LaTeX,
+consult some of the references below.</p>
+<p>Regardless of whether you use LaTeX, it’s important that you know how
+to properly archive your data. If you don’t store your data in a
+readable format, you might as well delete it after you defend. You’ve
+made it useless. If you want to save is for potential future use, read
+my document on <a class="reference external" href="http://josephcslater.github.io/archiving-and-plotting-data.html">archiving your data</a>. It’s not a
+great document, but it’s the best I’ve got.</p>
+<div class="section" id="plotting-even-if-you-re-not-using-latex">
+<h2>Plotting (even if you’re not using LaTeX)<a class="headerlink" href="#plotting-even-if-you-re-not-using-latex" title="Permalink to this headline">¶</a></h2>
+<p>You’re likely going to make plots. Lots of plots. Then, you are going to realize you have to make changes. Lots of changes. One of the problems with using non-referencing software for your document (one that doesn’t embed graphics by reference) is that after fixing your graphics, you still have to go back into your document to re-embed them. Five or six is a bit bothersome, but often it’s even more. If you can reference the graphic file, then updating the file is all you have to do to fix your document.</p>
+<p>With that: how do you update the graphic? Well, if it’s a drawing, most people will use some sort of drawing package. <a class="reference external" href="http://www.inkscape.org">InkScape</a> is powerful, and has a good price (free). Once can actually code up graphics, and they look fantastic. However, this is a bit beyond what most will find worthwhile. I do when appropriate, and I don’t when it doesn’t matter. It’s a subjective call.</p>
+<p>Regardless, here we are talking about plotting data in all of it’s various forms. If you followed the instructions of <a class="reference external" href="http://josephcslater.github.io/archiving-and-plotting-data.html">Creating Good Graphics and Archiving Your Data</a>
+the section on plotting implores you to create a script file for your plotting. Why? Well, you most likely had to issue the commands to make your plots (unless you used Excel- which really isn’t as easy as advertised). Just by:</p>
+<ol class="arabic simple">
+<li>Putting the data to be plotted in a file (saving it per <a class="reference external" href="http://josephcslater.github.io/archiving-and-plotting-data.html">Creating Good Graphics and Archiving Your Data</a>)</li>
+<li>Putting your commands to plot the graphics in a script file (I love using <a class="reference external" href="http://jupyter.org">Jupyter Notebooks</a>, but see <a class="reference internal" href="#using-jupyter-notebooks">Using Jupyter Notebooks</a>)</li>
+<li>Adding the appropriate <em>save</em> commands, for your language, to save in <em>vector format</em>. Using a vector format such as PDF or SVG is almost always the best choice as it preserves the structure of the information behind the plot, while <a class="reference external" href="http://b.nanes.org/figures/">raster formats</a> destroy this information. The “p” in <em>jpeg</em> means <em>photo</em>. It’s best for actual pictures with the richness of variations that exist in the real world. Plot are more often than not created on a solid white background. Only a single color. jpeg can’t do solid colors well at all and will smudge the interfaces between the foreground plots and axes and the background, while also taking more space and making small fonts unintelligible.</li>
+</ol>
+<p>Making quality plots can be a challenge. Most graphics generated by authors don’t
+have fonts and/or font sizes that match the text, or they are all fuzzy,
+etc. One of the best classic packages for generating publication-quality (print-quality) graphs
+is <a class="reference external" href="http://www.gnuplot.info/">gnuplot</a>. It allows you to specify the
+size of the resulting graphic (so you don’t have to “squeeze it”) in
+your final document, the font, the font size, tic marks, etc. You can
+plot functions, as well as data, plus curve fit to it while plotting. It
+can be a little bit challenging at first, so a good place to start is
+with a tutorial such at <a class="reference external" href="http://www.cs.hmc.edu/~vrable/gnuplot/using-gnuplot.html">the one at Harvey Mudd
+College</a>
+and <a class="reference external" href="http://www.duke.edu/~hpgavin/gnuplot.html">the one at Duke</a>.
+Yes, you may think you can do this as well in Excel, but the reality is
+the cartoony plots in Excel look good in brochures and business
+presentations, not engineering, math and science technical papers.</p>
+<ul class="simple">
+<li>Do not include file extensions when including files. LaTeX can choose the best you have, or switch from eps to pdf etc.</li>
+<li>Use vector graphics at every instance possible (anything that is not
+a photograph). At the very least, save a version in vector form for your adviser. See <a class="reference external" href="http://josephcslater.github.io/archiving-and-plotting-data.html">archiving your data</a>. It tells you how to save the data as well.</li>
+</ul>
+</div>
+<div class="section" id="wsu-latex-thesis-dissertation-style-file">
+<h2>WSU LaTeX Thesis/Dissertation style file<a class="headerlink" href="#wsu-latex-thesis-dissertation-style-file" title="Permalink to this headline">¶</a></h2>
+<p>The remainder of this document and the related supporting files have
+been moved to the <a class="reference external" href="https://github.com/josephcslater/WSUThesisTemplate">WSUThesisTemplate</a> github repository.</p>
+</div>
+<div class="section" id="using-jupyter-notebooks">
+<h2>Using Jupyter Notebooks<a class="headerlink" href="#using-jupyter-notebooks" title="Permalink to this headline">¶</a></h2>
+<p>A <a class="reference external" href="http://jupyter.org">Jupyter Notebook</a> is the easiest way to:</p>
+<ol class="arabic simple">
+<li>Fiddle with your plots and get them “just right”</li>
+<li>Put them all in one place</li>
+<li>Ensure that your settings are consistent, and</li>
+<li>Make a slew of corrections and easily regenerate all of your plots.</li>
+</ol>
+<p>Even if you use Matlab, <a class="reference external" href="https://matplotlib.org/">matplotlib pyplot</a> (which has a syntax not too far from that of Matlab) can be the easiest way to make plots simply because of the book-keeping and note-taking ability of <a class="reference external" href="http://jupyter.org">Jupyter Notebooks</a> as <a class="reference external" href="http://www.scipy.org">SciPy</a> makes loading <em>.mat</em> files easy. You can <a class="reference external" href="https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb">try Jupyter Notebooks</a> online.</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../default.html">JCS</a></h1>
+
+
+
+<p class="blurb">My classes, my tutorials, and my research</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../bio.html">Bio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recentpubs.html">Recent Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../classes.html">Course Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../computerhelp.html">Computer Help</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="http://josephcslater.github.io">Blog</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/josephcslater">GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://scholar.google.com/citations?user=2WEH0xEAAAAJ&hl=en">Google Scholar</a></li>
+    
+    <li class="toctree-l1"><a href="https://www.linkedin.com/in/josephcslater">LinkedIn</a></li>
+    
+    <li class="toctree-l1"><a href="https://www.researchgate.net/profile/Joseph_Slater">ResearchGate</a></li>
+    
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/classes/thesis.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Joseph C. Slater.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="../_sources/classes/thesis.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-62100376-1']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  </body>
+</html>

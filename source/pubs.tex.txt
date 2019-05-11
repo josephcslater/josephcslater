@@ -1,0 +1,8 @@
+Gillaugh, D.~L., Kaszynski, A.~A., Brown, J.~M., Beck, J.~A., and Slater,  J.~C., ``Mistuning Evaluation Comparison via As-Manufactured Models,  Traveling Wave Excitation, and Compressor Rigs,'' {\em ASME Turbo Expo 2018:  Turbomachinery Technical Conference and Exposition\/}, No. GT2018-76888,  2018, p. V07CT35A039.\newblock Available from: \url{http://dx.doi.org/10.1115/GT2018-76888}.
+
+
+
+Gillaugh, D.~L., Kaszynski, A.~A., Brown, J.~M., Beck, J.~A., and Slater,  J.~C., ``Mistuning Evaluation Comparison via As-Manufactured Models,  Traveling Wave Excitation, and Compressor Rigs,'' \emph{ ASME Turbo Expo 2018:  Turbomachinery Technical Conference and Exposition\/}, No. GT2018-76888,  2018, p. V07CT35A039.\newblock Available from: \url{http://dx.doi.org/10.1115/GT2018-76888}.
+
+
+

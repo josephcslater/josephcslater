@@ -1,0 +1,110 @@
+Gillaugh, D. L., Kaszynski, A. A., Brown, J. M., Beck, J. A., and
+Slater, J. C., “Mistuning Evaluation Comparison via As-Manufactured
+Models, Traveling Wave Excitation, and Compressor Rigs,” *ASME Turbo
+Expo 2018: Turbomachinery Technical Conference and Exposition*, No.
+GT2018-76888, 2018, p. V07CT35A039.Available from:
+http://dx.doi.org/10.1115/GT2018-76888.
+
+Slater, J. C. and Tidball, M. E., “Identification of Nonlinear
+Constitutive Properties of Damping Coatings,” *2018 AIAA/ASCE/AHS/ASC
+Structures, Structural Dynamics, and Materials Conference*, 2018, p.
+0184.
+
+Tidball, M. E., Slater, J. C., Brown, J. M., Langley, B., and George,
+T. J., “Modeling and Analysis of Damping Performance of Hard Coatings in
+Turbomachinery,” *58th AIAA/ASCE/AHS/ASC Structures, Structural
+Dynamics, and Materials Conference*, 2017, p. 1979.
+
+Gillaugh, D. L., Kaszynski, A. A., Brown, J. M., Johnston, D. A., and
+Slater, J. C., “Accurate Strain Gage Limits Through Geometry Mistuning
+Modeling,” *58th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and
+Materials Conference*, 2017, pp. AIAA 2017–0865.Available from:
+https://doi.org/10.2514/6.2017-0865.
+
+Park, S., Shin, S., Kim, Y., Matson, E. T., Lee, K., Kolodzy, P. J.,
+Slater, J. C., Scherreik, M., Sam, M., Gallagher, J. C., Fox, B. R., and
+Hopmeier, M., “Combination of Radar and Audio Sensors for Identification
+of Rotor-Type Unmanned Aerial Vehicles (UAVs),” *2015 IEEE SENSORS -
+Proceedings*, Busan, Korea, Republic of, 2015.Available from:
+http://dx.doi.org/10.1109/ICSENS.2015.7370533.
+
+Cooley, P. E. and Slater, J. C., “Investigation of a Vibration-Based
+Damage Identification Technique for Breathing Fatigue Cracks,” *56th
+AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials
+Conference*, 2015, pp. AIAA 2015–0693.
+
+Henry, E. B., Brown, J. M., and Slater, J. C., “A Fleet Risk Prediction
+Methodology for Mistuned IBRs using Geometric Mistuning Models,” *17th
+AIAA Non-Deterministic Approaches Conference*, 2015, pp. AIAA 2015–1144.
+
+Cooley, P. E. and Slater, J. C., “Experimental Investigation of a
+Perturbation Model for the Nonlinear Response of a Fatigue Cracked
+Beam,” *55th AIAA/ASME/ASCE/AHS/SC Structures, Structural Dynamics, and
+Materials Conference*, 2014.Available from:
+http://dx.doi.org/10.2514/6.2014-0490.
+
+Scott-Emuakpor, O., George, T. J., Beck, J., Schwartz, J., Holycross,
+C., Shen, M. H., and Slater, J., “Material Property Determination of
+Vibration Fatigued DMLS” and Cold-Rolled Nickel Alloys, *Proceedings of
+the ASME Turbo Expo*, Vol. 7A, International Gas Turbine Institute,
+Dusseldorf, Germany, 2014.Available from:
+http://dx.doi.org/10.1115/GT2014-26247.
+
+Beck, J. A., Slater, J. C., Brown, J. M., and Cross, C. J., “Dynamic
+Response Characteristics of Dual Flow-Path Integrally Bladed Rotors,”
+*52nd Aerospace Sciences Meeting*, 2014, pp. AIAA 2014–0098.
+
+Scott-Emuakpor, O., Schwartz, J., George, T. J., Holycross, C., and
+Slater, J., “Bending Fatigue Life Comparison Between Dmls and
+Cold-Rolled Nickel Alloy 718,” *Machinery Failure Prevention Technology
+(MFPT) Society Annual Conference, Virginia Beach, VA, May*, 2014, pp.
+20–22.
+
+Yelamarthi, K., Slater, J., Wu, Z., and Mawasha, P. R., “Engineering
+Management in an Interdisciplinary Senior Design Project,” *Balkan
+Region Conference on Engineering and Business Education*, Vol. 1, De
+Gruyter Open, 2014, pp. 153–156.
+
+Beck, J. A., Brown, J. M., Cross, C. J., and Slater, J. C., “Geometric
+Mistuning Reduced Order Models for Integrally Bladed Rotors With
+Mistuned Disk-Blade Boundaries,” *Proceedings of the ASME Turbo Expo*,
+Vol. 7 B, San Antonio, TX, United States, 2013.Available from:
+http://dx.doi.org/10.1115/GT2013-94361.
+
+Beck, J. A., Brown, J. M., Cross, C. J., and Slater, J. C., “Component
+Mode Reduced Order Models for Geometric Mistuning of Integrally Bladed
+Rotors,” *AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and
+Materials Conference*, 2013.
+
+Cooley, P. E., Slater, J. C., and Shiryayev, O. V., “Improving Spectral
+Signature Profiles for Fatigue Crack Identification in Beams,” *54th
+AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials
+Conference*, 2013, p. 1498.
+
+Beck, J. A., Brown, J. M., Cross, C. J., and Slater, J. C.,
+“Probabilistic Mistuning Assessment Using Nominal and Geometry Based
+Mistuning Methods,” *Proceedings of the ASME Turbo Expo*, Vol. 7,
+Copenhagen, Denmark, 2012, pp. 1085 – 1097.Available from:
+http://dx.doi.org/10.1115/GT2012-68533.
+
+Cooley, P. E., Slater, J. C., and Shiryayev, O. V., “Fatigue Crack
+Modeling and Analysis in Beams,” *53rd AIAA/ASME/ASCE/AHS/ASC
+Structures, Structural Dynamics and Materials Conference 20th
+AIAA/ASME/AHS Adaptive Structures Conference 14th AIAA*, 2012, p. 1874.
+
+Erford, M., Henry, E., Nay, J., and Slater, J., “Analysis of a Free-Fall
+Ballute Vehicle,” *53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural
+Dynamics and Materials Conference 20th AIAA/ASME/AHS Adaptive Structures
+Conference 14th AIAA*, 2012, p. 1516.
+
+Slater, J. C. and Doman, D., “Proper Modes for Modeling Flapping
+Dynamics of Ornithopters,” *53rd AIAA/ASME/ASCE/AHS/ASC Structures,
+Structural Dynamics and Materials Conference 20th AIAA/ASME/AHS Adaptive
+Structures Conference 14th AIAA*, 2012, p. 1981.
+
+Shiryayev, O., Gaerke, J., Cooley, P., and Slater, J., “Application of
+the Campbell Diagram Concept to Identification of Fatigue Cracks in
+Bladed Disk Assemblies,” *52nd AIAA/ASME/ASCE/AHS/ASC Structures,
+Structural Dynamics and Materials Conference 19th AIAA/ASME/AHS Adaptive
+Structures Conference*, 2011, p. 1938.Available from:
+https://doi.org/10.2514/6.2011-1938.

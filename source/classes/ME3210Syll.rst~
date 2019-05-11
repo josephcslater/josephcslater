@@ -1,0 +1,167 @@
+ME 3210: System Dynamics,  Fall 2015
+=========================================
+
+Instructor
+----------
+
+| Joseph C. Slater, PhD, PE
+| 405 Russ Engineering Center
+| 937-775-5005
+| `http://www.cecs.wright.edu/~jslater <http://www.cecs.wright.edu/~jslater>`__
+| Helpful materials are available through the `course page <http://www.cecs.wright.edu/~jslater/classes/systemdynamics>`__:
+
+Also see the links on the left for more general information, including using MATLAB, forwarding email, contacting me, etc.
+
+Objectives
+----------
+
+*System Dynamics* introduces students to the system level modeling of
+dynamic engineering systems including, but not restricted to, linear and
+rotational mechanical, fluid, thermal, and electrical systems. Modeling
+of control devices (e.g. motors, heaters and pumps) is addressed.
+
+The course focuses on a) the development of governing equations, and b)
+the solution of governing equations. Development of governing equations
+is by methods appropriate to each subfield. The unifying system level
+analysis will be taught a) via time domain solutions, b) frequency
+(Laplace domain) solutions, and c) numerical simulation in Simulink (a
+modern system simulation tool).
+
+Office Hours
+------------
+
+Tentative: Will change depending on student schedules. Tentatively
+1:30-2:30 PM, Monday and Wednesday, and by appointment. Please use email
+to contact me when you have questions, and to set up appointments. I
+check my email throughout the day. You will get a quicker response by
+email than by any other mode of communication.
+
+Text
+----
+
+System Dynamics, William J. Palm, III.
+
+Prerequisites
+-------------
+
+EE 2010, ME 2210, ME 3120, MTH 2350
+
+Course Contents
+---------------
+
+#. Introduction to Modeling and Analysis, (Chapter 1)
+
+#. Modeling of Rigid Body Dynamics, (review of Dynamics, Chapter 3)
+
+#. Dynamic Response and the Laplace Transform Method (Chapter 2)
+
+#. Spring-Damper Elements in Mechanical Systems (Chapter 4)
+
+#. Block Diagrams, State-Variable Models & Simulations (Chapter 5)
+
+#. Electric and Electro-mechanical systems (Chapter 6)
+
+#. Fluid/Thermal Systems (Chapter 7)
+
+#. System Analysis in the Time Domain (Chapter 8)
+
+#. System Analysis in the Frequency Domain (Chapter 9)
+
+Grade composition
+-----------------
+
++--------------------+-------+
+| Professionalism:   | 5%    |
++--------------------+-------+
+| Homework:          | 10%   |
++--------------------+-------+
+| Exams:             | 85%   |
++--------------------+-------+
+
+Homework
+--------
+
+Homework problems will be assigned on the course web page. Homework is
+tentative until Thursday at 5 PM. Homework problem solutions are
+collected at the beginning of the last lecture each week. You will be
+given no less than one week to do them. If there is a test scheduled on
+a day homework is due, the homework will be collected the following
+lecture. Each homework problem is worth 1 point unless otherwise noted.
+More difficult problems may be weighted accordingly. Your final homework
+score is your average total score divided by the total number of
+possible points. Homework grades will be curved such that the class
+average will be no lower than 85%. You are encouraged to work together
+in small groups, but keep in mind that homework is assigned in order to
+help you learn and keep up with the course material. Please see me if
+you need help with the homework. This class is a cooperative effort
+between you and me. You are also encouraged to do additional problems
+out of the text for practice on your own. Use of the solution manual,
+should you obtain it, is considered cheating.
+
+Exams
+-----
+
+There will be two tests and a final exam graded on a straight, scale
+(:math:`\geq 90 = A`,\ :math:`\geq 80 = B`, :math:`\geq 70 = C`,
+:math:`\geq 60 = D`, :math:`< 59 = F`). The final exam will count for
+two test grades. The lowest exam grade of the four will be dropped. An
+8.5 in. by 11 in. formula sheet may be used provided there are no
+derivations, definitions or solved problems on the sheet. It must be
+turned in with the exam. Tests will be graded and returned as soon as
+possible. Solutions will be discussed during the lecture following the
+exam if time permits. All grading discrepancies must be brought up in
+writing no later than one week after the exam is returned. A simple note
+describing your contentions will do.
+
+Professionalism
+---------------
+
+Professionalism is a measure of your behavior regarding expected
+practice as a professional. This includes aspects such as attendance,
+note taking, consistency of performance, tenacity in problem solution,
+leadership, legibility and organization of problem solutions, clarity of
+communication, seeking assistance as prudent, etc. For details on
+expected behavior, please consult *The Unwritten Rules of Engineering*
+by W.J. King, with revision by J.G. Skakoon. This book is available at
+the library. However, for your own professional development, I highly
+recommend that you `own a personal
+copy <http://members.asme.org/catalog/ItemView.cfm?ItemNumber=801624>`__.
+If you read an older edition of the book (prior to Skakoon), please be
+attentive to the fact that some of the comments, especially those
+regarding polishing shoes, are considered rather quaint today. Two
+points will be automatically be deducted from your professionalism score
+each time you receive less than a 70% on an exam *and* do not see me
+personally within one week after receiving the exam grade to clear up
+confusion.
+
+Programming/Computer Usage
+--------------------------
+
+Programming will be done in Simulink in MATLAB. Please consult either
+the hand-outs, the online MATLAB help, or the documentation I supply on
+the course web site, and the manual in the computer lab. It is highly
+recommended that you learn to use Simulink on your university UNIX
+account as soon as possible. Run MATLAB by setting, your display
+environment from your X-Windows terminal and typing at the UNIX prompt.
+Run Simulink by typing at the MATLAB prompt. The best way to learn is to
+play around with it, and look at some of the examples provided in
+Simulink.
+
+Problem Solutions
+-----------------
+
+All problem solutions, whether on homework, quizzes, or exams, should be
+neat and orderly. They should begin with a brief problem statement and
+figure (Elaborate drawings are not expected).
+
+Important Dates
+---------------
+
++-------------------------------+--------------+
+| October 2:                    | Exam 1       |
++-------------------------------+--------------+
+| November 13:                  | Exam 2       |
++-------------------------------+--------------+
+| December 16, 12:30-2:30 PM:   | Final Exam   |
++-------------------------------+--------------+
+

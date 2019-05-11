@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Project 1 &#8212; Joseph C. Slater</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Project 2" href="Lab2.html" />
+    <link rel="prev" title="Syllabus: ME 7120: Finite Element Method Applications, Fall 2016" href="ME7120Syll.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+    <link rel="apple-touch-icon" href="../_static/js.jpg" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="project-1">
+<span id="id1"></span><h1>Project 1<a class="headerlink" href="#project-1" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>Write a finite element submodule<ol class="arabic">
+<li>Write a general element code to generate the elemental stiffness
+and mass matrices for a single three-dimensional
+rod/torsion-rod/beam linearly tapered element for WFEM.</li>
+<li>Write an additional routine that returns the coordinate
+transformation matrix.</li>
+<li>Obtain the FE matrices (<span class="math notranslate nohighlight">\(M\)</span> and <span class="math notranslate nohighlight">\(K\)</span>) in global
+coordinates.</li>
+<li>Write a subroutine to assemble these elements into the global
+matrix.</li>
+</ol>
+</li>
+<li>Check your code by comparing the results of your code to that of
+ANSYS for a sufficiently complex problem. Be sure to do at least one
+mesh convergence study in addition to the following bench marks (See
+3 below).<ol class="arabic">
+<li>Static simple and complex (complicated)</li>
+<li>Dynamic theoretical: compare to closed-form dynamic mode shapes
+and natural frequencies</li>
+<li>Prove that choice of coordinate does not change your answers
+through rotating your problem a partial angle (less than 90
+degrees in all three directions.).</li>
+<li>As least one dynamic case unique to your group validated against
+ANSYS.</li>
+</ol>
+</li>
+<li>Reports should show tables comparing continuum theory/ANSYS/ your
+code results for numerous validation cases. Dynamic cases must also
+show convergence to continuum theory when the mesh is refined for
+both rod, torsion rod, and beam cases. The more validation that is
+performed, the higher your work will be regarded. Put code and
+transcripts in an appendix.</li>
+<li>All reports and codes and input files must be zipped and emailed to
+me in a single package.</li>
+</ol>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../default.html">JCS</a></h1>
+
+
+
+<p class="blurb">My classes, my tutorials, and my research</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../bio.html">Bio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recentpubs.html">Recent Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../classes.html">Course Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../computerhelp.html">Computer Help</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="http://josephcslater.github.io">Blog</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/josephcslater">GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://scholar.google.com/citations?user=2WEH0xEAAAAJ&hl=en">Google Scholar</a></li>
+    
+    <li class="toctree-l1"><a href="https://www.linkedin.com/in/josephcslater">LinkedIn</a></li>
+    
+    <li class="toctree-l1"><a href="https://www.researchgate.net/profile/Joseph_Slater">ResearchGate</a></li>
+    
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/classes/Lab1.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Joseph C. Slater.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="../_sources/classes/Lab1.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-62100376-1']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  </body>
+</html>

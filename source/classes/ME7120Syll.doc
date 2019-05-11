@@ -1,0 +1,95 @@
+<h1 id="syllabus-me-7120-finite-element-method-applications-fall-2016">Syllabus: ME 7120: Finite Element Method Applications, Fall 2016</h1>
+<h2 id="instructor">Instructor</h2>
+<p><a href="http://www.cs.wright.edu/~jslater">Joseph C. Slater, PhD, PE</a><br />
+209 Russ Engineering Center<br />
+775-5005</p>
+<h2 id="text">Text</h2>
+<p>Cook, R.D., Malkus, D.S., and Plesha, M.E., and Witt, R.J., Concepts and Applications of Finite Element Analysis, 4th Edition, Wiley, 2001. Supplementary texts are listed on the course web page.</p>
+<h2 id="office-hours">Office Hours</h2>
+<p>Tentative: Will change depending on student schedules. 3:30-4:30 Tuesday/Thursday, and by appointment. You are encouraged to use email to contact me when you have questions. You <em>must</em> use your Wright State Email to ensure that it makes it through spam filters to my in box! You will get a quicker response by email than by any other mode of communication.</p>
+<h2 id="software">Software</h2>
+<p>ANSYS via your engineering UNIX account or another commercial FEA code when required for homework/projects. You may obtain an account by going to the Mechanical and Materials Engineering department office and requesting a graduate student account on the engineering UNIX systems.</p>
+<p>Programming will be done in Matlab. Please refer to the extensive Matlab help menu, including tutorials etc. Simple introductions are available on my website, and Google is also capable of answering almost any question a new user has. Matlab is free to students through the CATS website &lt;https://www.wright.edu/information-technology/services/matlab-software&gt;.</p>
+<p>`WFEM &lt;<a href="http://www.cecs.wright.edu/people/faculty/jslater/classes/fem2/WFEM/wfem.zip" class="uri">http://www.cecs.wright.edu/people/faculty/jslater/classes/fem2/WFEM/wfem.zip</a>&gt;: You are required to learn how this code works and use it as a framework for your projects. Read the included WFEM.pdf manual. It has many parts of necessary analysis already completed and generalized so that you may focus solely on generation of element matrices and assembly. An included example element can be used as a template for your code. No other files should be modified (broken, if you are not careful!). It is extremely unlikely that you will find an undiscovered error impeding your project. [1]_</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>ME 4120/6120. If you have not taken ME 4120 or 6120, or a senior level finite element course at another university, you will not be able to keep up.</p>
+<h2 id="attendance">Attendance</h2>
+<p>Attendance is optional and you are not assigned any grade for attendance. If you miss class, you are responsible for missed material, including assignments, from another student. I will not repeat with you material covered in class if you do not attend.</p>
+<h2 id="course-contents">Course Contents</h2>
+<table>
+<colgroup>
+<col width="24%" />
+<col width="75%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Week number(s)</p></td>
+<td><p>Topic</p></td>
+</tr>
+<tr class="even">
+<td><p>1</p></td>
+<td><p>Review of Finite Elements</p></td>
+</tr>
+<tr class="odd">
+<td><p>2</p></td>
+<td><p>Elasticity Theory</p></td>
+</tr>
+<tr class="even">
+<td><p>3-4</p></td>
+<td><p>Variational Methods</p></td>
+</tr>
+<tr class="odd">
+<td><p>4-5</p></td>
+<td><p>General Derivation of Linear Finite Element Formulation</p></td>
+</tr>
+<tr class="even">
+<td><p>6-7</p></td>
+<td><p>Isoparametric 1-D Elements</p></td>
+</tr>
+<tr class="odd">
+<td><p>7-8</p></td>
+<td><p>Isoparametric 3-D Elements-Bricks</p></td>
+</tr>
+<tr class="even">
+<td><p>9</p></td>
+<td><p>Isoparametric 3-D Elements-Tetrahedrons</p></td>
+</tr>
+<tr class="odd">
+<td><p>10</p></td>
+<td><p>Plate Elements</p></td>
+</tr>
+<tr class="even">
+<td><p>11-13</p></td>
+<td><p>Eigen-solution Methods</p></td>
+</tr>
+<tr class="odd">
+<td><p>13-14</p></td>
+<td><p>Dynamic Transient Response</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="homework-10">Homework (10%)</h2>
+<p>Homework problems will be due every Friday in class and is checked only for effort (that you did it) and on your presentation of your solution to class (as tasked). Late homework is not be accepted. Homework is updated regularly on the course webpage. It represents a minimal amount of problems necessary to understand the material. Students are expected to work additional problems for self-study.</p>
+<h2 id="labs-40">Labs (40%)</h2>
+<p>Labs (projects) must be completed successfully to complete the course. You are expected to start on them early so that guidance given in class is better understood at the time it is given. Insights given in class will be helpful in debugging only if you have progressed to the point in the project that you can understand the points made.</p>
+<h2 id="exams-50">Exams (50%)</h2>
+<p>There will be one test and a final exam graded on a straight, scale (:math:geq 90 = A,geq 80 = B, geq 70 = C, geq 60 = D, &lt; 60 = F`). The final exam will count for two test grades. The lowest exam grade of the three will be dropped. If you know during the first week of the semester that you cannot attend an exam, please see me. All grading discrepancies must be brought up in writing no later than one week after the exam is returned. A simple note describing your contentions will do.</p>
+<h2 id="problem-solutions">Problem Solutions</h2>
+<p>All problem solutions, whether on homework, labs, or exams, should be neat and orderly.</p>
+<h2 id="important-dates">Important Dates</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">October 3:</td>
+<td align="left">Midterm 1</td>
+</tr>
+<tr class="even">
+<td align="left">November 7:</td>
+<td align="left">Midterm 2</td>
+</tr>
+<tr class="odd">
+<td align="left">December 16:</td>
+<td align="left">Final Exam</td>
+</tr>
+</tbody>
+</table>
