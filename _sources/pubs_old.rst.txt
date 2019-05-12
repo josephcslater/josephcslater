@@ -1,0 +1,97 @@
+Gillaugh, D. L., Kaszynski, A. A., Brown, J. M., Johnston, D. A., and
+Slater, J. C., “Accurate Strain Gauge Limits Through Geometry Mistuning
+Modeling,” J. Propul. Power, Vol. 34, No. 6, November 2018,
+pp. 1401–1408.
+
+Gillaugh, D. L., Kaszynski, A. A., Brown, J., Beck, J., and Slater,
+J. C., “Mistuning Evaluation Comparison via As-Manufactured Models,
+Traveling Wave Excitation, and Compressor Rigs,” Journal of Engineering
+for Gas Turbines and Power, Vol. 141, No. 6, 11 2018,
+pp. GTP–18–1617.Available from: http://dx.doi.org/10.1115/1.4042079.
+
+Beck, J. A., Brown, J. M., Kaszynski, A. A., Slater, J. C., and Cross,
+C. J., “Mistuned Response Prediction of Dual Flow-Path Integrally Bladed
+Rotors With Geometric Mistuning,” Journal of Engineering for Gas
+Turbines and Power, Vol. 137, No. 6, 2015.Available from:
+http://dx.doi.org/10.1115/1.4028795.
+
+Beck, J. A., Brown, J. M., Scott-Emuakpor, O. E., Cross, C. J., and
+Slater, J. C., “Dynamic Response Characteristics of Dual Flow-Path
+Integrally Bladed Rotors,” Journal of Sound and Vibration, Vol. 336,
+2015, pp. 150 – 163.Available from:
+http://dx.doi.org/10.1016/j.jsv.2014.10.011.
+
+Scott-Emuakpor, O. E., Schwartz, J., George, T. J., Holycross, C.,
+Cross, C. J., and Slater, J. C., “Bending Fatigue Life Characterisation
+of Direct Metal Laser Sintering Nickel Alloy 718,” Fatigue & Fracture of
+Engineering Materials & Structures, Vol. 38, No. 9, Feb 2015,
+pp. 1105–1117.Available from: http://dx.doi.org/10.1111/ffe.12286.
+
+Beck, J. A., Brown, J. M., Kaszynski, A. A., Cross, C. J., and Slater,
+J. C., “Geometric Mistuning Reduced-Order Models for Integrally Bladed
+Rotors With Mistuned Disk–Blade Boundaries,” Journal of Turbomachinery,
+Vol. 137, No. 7, 2015, pp. 11.
+
+Beck, J. A., Brown, J. M., Cross, C. J., and Slater, J. C.,
+“Component-Mode Reduced-Order Models for Geometric Mistuning of
+Integrally Bladed Rotors”, AIAA Journal, Vol. 52, No. 7, July 2014,
+pp. 1345–1356.
+
+Beck, J. A., Brown, J. M., Cross, C. J., Slater, J. C., and Lamont,
+G. B., “Framework for Creating Digital Representations of Structural
+Components Using Computational Intelligence Techniques,” AIAA Journal,
+Vol. 52, No. 4, April 2014, pp. 855–866.
+
+Beck, J. A., Brown, J. M., Slater, J. C., and Cross, C. J.,
+“Probabilistic Mistuning Assessment Using Nominal and Geometry Based
+Mistuning Methods,” Journal of Turbomachinery-Transactions of the ASME,
+Vol. 135, No. 5, September 2013.
+
+Shiryayev, O. V., Slater, J. C., and Brown, J., “Feasibility of Using
+Nonlinear Response Features for Crack Detection in Turbomachinery
+Components,” AIAA Journal, Vol. 51, No. 9, 2013, pp. 2290 –
+2294.Available from: http://dx.doi.org/10.2514/1.J052189.
+
+Shiryayev, O. V. and Slater, J. C., “Detection of Fatigue Cracks Using
+Random Decrement Signatures,” Structural Health Monitoring, Vol. 9,
+No. 4, 2010, pp. 347–360.
+
+Shiryayev, O. V. and Slater, J. C., “Improved Structural Damage
+Identification Using Random Decrement Signatures: Application to FEM
+Data,” Structural Control and Health Monitoring, Vol. 15, No. 7, 2008,
+pp. 1006–1020.
+
+Balagangadhar, R. and Slater, J. C., “On the Convergence of Nonlinear
+Modes of a Finite Element Model,” Shock and Vibration, Vol. 15, No. 6,
+2008, pp. 655–664.
+
+Shiryayev, O. V., Page, S. M., Pettit, C. L., and Slater, J. C.,
+“Parameter Estimation and Investigation of a Bolted Joint Model,”
+Journal of Sound and Vibration, Vol. 307, No. 3-5, 2007, pp. 680–697.
+
+Shiryayev, O. V. and Slater, J. C., “Panel Flutter Model Identification
+Using the Minimum Model Error Method on the Forced Response
+Measurements,” ASME Journal of Vibration and Acoustics, Vol. 128, No. 5,
+October 2006, pp. 635–645.
+
+Shiryayev, O. V. and Slater, J. C., “Aeroelastic System Identification
+Using the Minimum Model Error Method,” AIAA Journal of Guidance,
+Control, and Dynamics, Vol. 29, No. 4, August 2006, pp. 936–943.
+
+Mortara, S. A., Slater, J. C., and Beran, P. S., “Analysis of Nonlinear
+Aeroelastic Panel Response Using Proper Orthogonal Decomposition,”
+Journal of Vibration and Acoustics-Transactions of the ASME, Vol. 126,
+July 2004, pp. 416–421.
+
+Slater, J. C., Pettit, C. L., and Beran, P. S., “In-Situ Subspace
+Evaluation in Reduced Order Modelling,” Shock and Vibration, Vol. 9,
+No. 3, 2002, pp. 105–122.
+
+Slater, J. C., Pettit, C. L., and Beran, P. S., “In-Situ Residual
+Tracking in Reduced Order Modelling,” Shock and Vibration, Vol. 9,
+No. 3, 2002, pp. 105–121.
+
+Slater, J. C., Minkiewicz, G. R., and Blair, A. J., “Forced Response of
+Bladed Disk Assemblies – A Survey,” The Shock and Vibration Digest:
+Center for Intelligent Materials Systems and Structures, Vol. 31, No. 1,
+1999, pp. 17–24.

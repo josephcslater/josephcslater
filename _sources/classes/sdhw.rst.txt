@@ -1,0 +1,107 @@
+ME 3210: System Dynamics Homework
+------------------------------------------
+
+
+Homework problems are listed for the third edition. Many sections have been
+moved around from the second edition. You can use the second edition, but will
+need problems from the third.
+
+1: 1, 6 means chapter 1, problems 1 and 6.
+
++-------------+-------------------------------------------+
+|  Due date   |                 Problems                  |
++=============+===========================================+
+| Aug. 30     | Nothing stopping you from working ahead!  |
++-------------+-------------------------------------------+
+| Sept. 6     | 1: 11, 14, 15, 17, 23, 27, 29             |
+|             |                                           |
+|             | I recommend that you perform all          |
+|             | appropriate work in Matlab to use this as |
+|             | an opportunity to build your Matlab       |
+|             | skills                                    |
++-------------+-------------------------------------------+
+|             | 1: 31                                     |
+| Sept. 13    | 3: 1, 4, 6, 8,                            |
+|             | A uniform cylinder is on an incline with  |
+|             | slope α. It is held barely out of contact |
+|             | with the ramp and has an initial angular  |
+|             | velocity :math:`\omega_0` oriented to     |
+|             | propel the cylinder up the ramp. The      |
+|             | coefficient of friction for both static   |
+|             | and dynamic friction is μ. (It has mass   |
+|             | m, radius r).                             |
+|             |                                           |
+|             | a) If it is set down on the the ramp, and |
+|             | initially slips, how far up the ramp will |
+|             | it move before it begins rolling without  |
+|             | slipping?                                 |
+|             |                                           |
+|             | b) Once it starts rolling without         |
+|             | slipping, how far up the ramp will it     |
+|             | move before it stops moving up and        |
+|             | reverses course.                          |
++-------------+-------------------------------------------+
+|             | 3: 10, 11, 12, 15, 19, 23                 |
+|             |                                           |
+|             |                                           |
+| Sept. 20    |                                           |
+|             |                                           |
++-------------+-------------------------------------------+
+|             | 3: 24, 26, 31, 32, 34, 40, 46             |
+|             |                                           |
+| Sept. 27    |                                           |
+|             |                                           |
++-------------+-------------------------------------------+
+|             |                                           |
+| Oct. 4      | 4: 4, 9, 10, 13, 16, 19, 22, 52, 77, 83   |
+|             |                                           |
++-------------+-------------------------------------------+
+| Oct. 11     | 4: 12, 18, 23, 29, 31                     |
+|             |                                           |
+|             | 2: 1, 2                                   |
++-------------+-------------------------------------------+
+|             | 4: 14, 31, 42, 80                         |
+| Oct. 18     |                                           |
++-------------+-------------------------------------------+
+|             | 2: 19, 28, 32, 33, 34, 36, 37, 38, 61,    |
+|             | 62, 63, 64                                |
+| Oct. 25     |                                           |
+|             |                                           |
++-------------+-------------------------------------------+
+| Nov. 1      | 5: 41, 44, 47, 51, 56, 59                 |
++-------------+-------------------------------------------+
+|             | 5: 43, 49, 55, 58, 60                     |
+| Nov. 8      |                                           |
++-------------+-------------------------------------------+
+|             | 5: 1, 3, 5, 8                             |
+|             | 5: 11, 16, 18, 23, 25                     |
+|             | 5: 34, 37                                 |
+|             |                                           |
+| Nov. 15     |                                           |
++-------------+-------------------------------------------+
+| Nov. 22     | University Closed                         |
+|             |                                           |
+|             | I suggest working ahead in because the    |
+|             | next batch is big. homework.              |
+|             |                                           |
++-------------+-------------------------------------------+
+|             | 2: 35 BUT with the term $- 12 x$ replaced |
+|             | by $+ 12 x$                               |
+|             | simulate the response to validate your    |
+|             | answer                                    |
+| Nov. 29     |                                           |
+|             | 6: 1, 3, 5, 9, 15                         |
+|             | 6: 22, 26, 29, 31                         |
++-------------+-------------------------------------------+
+| Dec. 6      | 6: 37, 38, 40, 44, 55                     |
+|             | 7: 6, 10, 20, 23, 27                      |
+|             | 7: 34                                     |
+|             |                                           |
++-------------+-------------------------------------------+
+| Suggested/  | 8: 3, 5, 14, 18, 24                       |
+| Review      | 9: 1, 5, 11                               |
+|             |                                           |
++-------------+-------------------------------------------+
+| Dec. 13,    |                                           |
+| 8 AM-10 AM: | Final Exam                                |
++-------------+-------------------------------------------+
