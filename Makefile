@@ -64,7 +64,6 @@ html:
 	git pull origin master
 	git commit -a -m "Keep examples in sync"; true
 	git push origin; true
-	make docs
 	ghp-import -n -p -m $(GHP_MSG) build/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
