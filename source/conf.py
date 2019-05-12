@@ -59,7 +59,7 @@ charset_type = 'utf-8'
 fixed_sidebar = True
 
 # The master toctree document.
-master_doc = 'default'
+master_doc = 'index'
 
 # General information about the project.
 project = 'JCS'
