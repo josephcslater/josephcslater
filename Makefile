@@ -60,8 +60,14 @@ html:
 								 overwrite=True)"
 	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/websites/sphinx/source/_static
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	git checkout master
+	git pull origin master
+	git commit -a -m "Keep examples in sync"; true
+	git push origin; true
+	make docs
+	ghp-import -n -p -m $(GHP_MSG) build/html
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html." 
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
