@@ -2,7 +2,7 @@
 Bio
 ###
 
-Joseph C. Slater is a professor and dean of the `College of Engineering`_ at `Tennessee Technological University`_. He also serves as the director of the MS in Aerospace Systems Engineering program and the Mechanical Engineering program.
+Joseph C. Slater is a professor and dean of the `College of Engineering`_ at `Tennessee Technological University`_. 
 
 His research interests are dynamics, finite element modeling, control, and model identification and validation. He has worked in the fields of UAV control, turbomachinery dynamics, fatigue, aeroelasticity, spacecraft dynamics and control, and vibration damping.
 
