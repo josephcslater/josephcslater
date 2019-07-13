@@ -2,7 +2,7 @@
 Bio
 ###
 
-Joseph C. Slater is a professor and the current chair of the Department of Mechanical and Materials Engineering at Wright State University. He also serves as the director of the MS in Aerospace Systems Engineering program and the Mechanical Engineering program.
+Joseph C. Slater is a professor and dean of the `College of Engineering`_ at `Tennessee Technological University`_. He also serves as the director of the MS in Aerospace Systems Engineering program and the Mechanical Engineering program.
 
 His research interests are dynamics, finite element modeling, control, and model identification and validation. He has worked in the fields of UAV control, turbomachinery dynamics, fatigue, aeroelasticity, spacecraft dynamics and control, and vibration damping.
 
@@ -35,3 +35,5 @@ He received his B.S. and M.S. degrees in Aerospace Engineering, and Ph.D. in Mec
 .. _`*`: http://www.midwinter.com/lurk/lurker.html
 .. _`ORCID`: https://orcid.org/0000-0002-1923-9279
 .. _`ResearchGate`: https://www.researchgate.net/profile/Joseph_Slater
+.. _`College of Engineering`: https://www.tntech.edu/engineering/
+.. _`Tennessee Technological University`: https://www.tntech.edu/
