@@ -18,7 +18,7 @@ Joseph C. Slater
 
    bio
    contact
-   Curriculum Vitae <http://cecs.wright.edu/~jslater/_static/cv.pdf>
+   Curriculum Vitae <https://github.com/josephcslater/josephcslater/blob/master/build/html/_static/cv.pdf>
    recentpubs
    software
 

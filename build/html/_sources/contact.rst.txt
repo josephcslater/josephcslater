@@ -2,10 +2,10 @@
 Contact
 ##############
 
-| Department of Mechanical and Materials Engineering
-| Wright State University
-| 3640 Colonel Glenn Highway
-| Dayton, OH 45435
+| Slater Joseph C , PhD, PE
+| 1010 N. Peachtree Avenue, Campus Box 5005,
+| Clement Hall 201
+| Cookeville, TN 38505
 
-| Phone: (01) 937-775-5040
-| email: joseph.slater@wright.edu
+| Phone: (01) 931-372-3172
+| email: jslater@tntech.edu
