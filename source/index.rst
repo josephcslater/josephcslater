@@ -33,7 +33,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-`Old web pages`_
-
-.. _Old web pages: http://www.cecs.wright.edu/~jslater/old/jslater.html
 .. _`curriculum vitae`: https://github.com/josephcslater/Resumes/raw/master/cv.pdf
