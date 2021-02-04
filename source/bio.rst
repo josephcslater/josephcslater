@@ -2,11 +2,11 @@
 Bio
 ###
 
-Joseph C. Slater is a professor and dean of the `College of Engineering`_ at `Tennessee Technological University`_. 
+Joseph C. Slater is a professor in, and the dean of, the `College of Engineering`_ at `Tennessee Technological University`_.
 
 His research interests are dynamics, finite element modeling, control, and model identification and validation. He has worked in the fields of UAV control, turbomachinery dynamics, fatigue, aeroelasticity, spacecraft dynamics and control, and vibration damping.
 
-He received his B.S. and M.S. degrees in Aerospace Engineering, and Ph.D. in Mechanical Engineering from the department of `Mechanical and Aerospace Engineering`_ at the `State University of New York at Buffalo`_. He is a Fellow of `ASME`_, Associate Fellow of `AIAA`_, and a member `Tau Beta Pi`_, `Sigma Gamma Tau`_, and `Phi Eta Sigma`_. He is a member of the `AIAA Structural Dynamics Technical Committee`_ and a former member of the AIAA Gossamer Spacecraft Program Committee.
+He received his B.S. and M.S. degrees in Aerospace Engineering, and Ph.D. in Mechanical Engineering from the department of `Mechanical and Aerospace Engineering`_ at the `State University of New York at Buffalo`_. He is a Fellow of `ASME`_, an Associate Fellow of `AIAA`_, and a member of the `Tau Beta Pi`_, `Sigma Gamma Tau`_, and `Phi Eta Sigma`_ honor societies. He is a past member of the `AIAA Structural Dynamics Technical Committee`_ and the AIAA Gossamer Spacecraft Program Committee, and a past Associate Editor of multiple professional journals.
 
 :sup:`<` `*`_ :sup:`>`
 
