@@ -60,8 +60,8 @@ html:
                  number_citations=20,\
 								 bibtex_types=('articles','inproceedings','periodical'),\
 								 overwrite=True)"
-	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/Documents/python-dev/josephcslater/source/_static/
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/Documents/python-dev/josephcslater/build/html/_static/
 	git checkout master
 	git pull origin master
 	git commit -a -m "Keep examples in sync"; true
