@@ -60,7 +60,7 @@ html:
                  number_citations=20,\
 								 bibtex_types=('articles','inproceedings','periodical'),\
 								 overwrite=True)"
-	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/websites/sphinx/source/_static
+	cp /Users/jslater/Documents/Resumes/cv.pdf /Users/jslater/Documents/python-dev/josephcslater/source/_static/
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	git checkout master
 	git pull origin master
