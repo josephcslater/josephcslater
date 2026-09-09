@@ -1,20 +1,12 @@
-Syllabus:  ME 7120: Finite Element Method Applications, Fall 2016
-=======================================================================
-
-.. toctree::
-   :hidden:
-
-   Lab1
-   Lab2
-   Lab3
+Syllabus: ME 7120: Finite Element Method Applications, Fall 2016
+================================================================
 
 Instructor
 ----------
 
-| `Joseph C. Slater, PhD, PE <http://www.cs.wright.edu/~jslater>`_
-| 209 Russ Engineering Center
-| 775-5005
-
+[Joseph C. Slater, PhD, PE](http://www.cs.wright.edu/~jslater)\
+209 Russ Engineering Center\
+775-5005
 
 Text
 ----
@@ -29,8 +21,8 @@ Office Hours
 Tentative: Will change depending on student schedules. 3:30-4:30
 Tuesday/Thursday, and by appointment. You are encouraged to use email to
 contact me when you have questions. You *must* use your Wright State
-Email to ensure that it makes it through spam filters to my in box!
-You will get a quicker response by email than by any other mode of
+Email to ensure that it makes it through spam filters to my in box! You
+will get a quicker response by email than by any other mode of
 communication.
 
 Software
@@ -41,24 +33,26 @@ when required for homework/projects. You may obtain an account by going
 to the Mechanical and Materials Engineering department office and
 requesting a graduate student account on the engineering UNIX systems.
 
-Programming will be done in Matlab. Please refer to the extensive
-Matlab help menu, including tutorials etc. Simple introductions are available on my
-website, and Google is also capable of answering almost any question a
-new user has. Matlab is free to students through the `CATS website <https://www.wright.edu/information-technology/services/matlab-software>`_.
+Programming will be done in Matlab. Please refer to the extensive Matlab
+help menu, including tutorials etc. Simple introductions are available
+on my website, and Google is also capable of answering almost any
+question a new user has. Matlab is free to students through the
+CATS website &lt;https://www.wright.edu/information-technology/services/matlab-software&gt;.
 
-`WFEM <http://www.cecs.wright.edu/people/faculty/jslater/classes/fem2/WFEM/wfem.zip>`_: You are required to learn how this code works and use it as a
+\`WFEM
+&lt;<http://www.cecs.wright.edu/people/faculty/jslater/classes/fem2/WFEM/wfem.zip>&gt;: You are required to learn how this code works and use it as a
 framework for your projects. Read the included WFEM.pdf manual. It has many parts of necessary analysis
 already completed and generalized so that you may focus solely on
 generation of element matrices and assembly. An included example element can be used as a template for your code. No other files
 should be modified (broken, if you are not careful!). It is extremely unlikely that you will find
-an undiscovered error impeding your project. [1]_
+an undiscovered error impeding your project. \[1\]\_
 
 Prerequisites
 -------------
 
 ME 4120/6120. If you have not taken ME 4120 or 6120, or a senior level
 finite element course at another university, you will not be able to
-keep up.
+keep up. 
 
 Attendance
 ----------
@@ -120,7 +114,7 @@ Exams (50%)
 -----------
 
 There will be one test and a final exam graded on a straight, scale
-(:math:`\geq 90 = A,\geq 80 = B, \geq 70 = C, \geq 60 = D, < 60 = F`).
+(:math:geq 90 = A,geq 80 = B, geq 70 = C, geq 60 = D, &lt; 60 = F\`).
 The final exam will count for two test grades. The lowest exam grade of
 the three will be dropped. If you know during the first week of the
 semester that you cannot attend an exam, please see me. All grading
@@ -136,14 +130,10 @@ neat and orderly.
 Important Dates
 ---------------
 
-+-------------------------+--------------------------+
-| October 3:              | Midterm 1                |
-+-------------------------+--------------------------+
-| November 7:             | Midterm 2                |
-+-------------------------+--------------------------+
-| December 16:            | Final Exam               |
-+-------------------------+--------------------------+
+  -------------------------- ---------------------------
+  October 3:                 Midterm 1
+  November 7:                Midterm 2
+  December 16:               Final Exam
+  -------------------------- ---------------------------
 
-.. [1]
-   A change in Matlab caused an apparent failure that was fixed in
-   Spring 2012.
+
