@@ -1,3 +1,8 @@
+Pardue, S. J., Yelamarthi, K., Chesson, T., Weathers, L. J., Bruce, J.,
+and Slater, J. C., “Board 112: Creating an Institutional Culture of
+Empowering Faculty for Student-centered Learning through a Pilot
+Program,” *2023 ASEE Annual Conference & Exposition*, ASEE, ASEE, 2023.
+
 Gillaugh, D. L., Kaszynski, A. A., Brown, J. M., Beck, J. A., and
 Slater, J. C., “Mistuning Evaluation Comparison via As-Manufactured
 Models, Traveling Wave Excitation, and Compressor Rigs,” *ASME Turbo
@@ -101,10 +106,3 @@ Slater, J. C. and Doman, D., “Proper Modes for Modeling Flapping
 Dynamics of Ornithopters,” *53rd AIAA/ASME/ASCE/AHS/ASC Structures,
 Structural Dynamics and Materials Conference 20th AIAA/ASME/AHS Adaptive
 Structures Conference 14th AIAA*, 2012, p. 1981.
-
-Shiryayev, O., Gaerke, J., Cooley, P., and Slater, J., “Application of
-the Campbell Diagram Concept to Identification of Fatigue Cracks in
-Bladed Disk Assemblies,” *52nd AIAA/ASME/ASCE/AHS/ASC Structures,
-Structural Dynamics and Materials Conference 19th AIAA/ASME/AHS Adaptive
-Structures Conference*, 2011, p. 1938.Available from:
-https://doi.org/10.2514/6.2011-1938.
