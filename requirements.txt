@@ -1,0 +1,8 @@
+# Pinned build dependencies for reproducible site builds.
+# Sphinx >= 6 dropped bundling jQuery in the default HTML output,
+# avoiding known jQuery vulnerabilities (e.g. CVE-2019-11358,
+# CVE-2020-11022, CVE-2020-11023) present in older Sphinx-bundled jQuery.
+sphinx>=7,<8
+alabaster>=0.7,<1
+nbsphinx>=0.9
+ghp-import>=2
