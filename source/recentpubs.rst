@@ -19,4 +19,4 @@ For more publications, please see my `Curriculum Vitae`_.
 .. _`Google Scholar`: https://scholar.google.com/citations?hl=en&user=2WEH0xEAAAAJ&view_op=list_works&sortby=pubdate
 .. _`ORCID`: https://orcid.org/0000-0002-1923-9279
 .. _`ResearchGate`: https://www.researchgate.net/profile/Joseph_Slater
-.. _`Curriculum Vitae`: http://cecs.wright.edu/~jslater/_static/cv.pdf
+.. _`Curriculum Vitae`: _static/cv.pdf
