@@ -18,7 +18,7 @@ Joseph C. Slater
 
    bio
    contact
-   Curriculum Vitae <https://github.com/josephcslater/josephcslater/blob/master/build/html/_static/cv.pdf>
+   Curriculum Vitae <https://josephcslater.github.io/josephcslater/_static/cv.pdf>
    recentpubs
    software
 
@@ -33,4 +33,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-.. _`curriculum vitae`: https://github.com/josephcslater/Resumes/raw/master/cv.pdf
+.. _`curriculum vitae`: https://josephcslater.github.io/josephcslater/_static/cv.pdf
