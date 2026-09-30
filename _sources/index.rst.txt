@@ -34,4 +34,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-.. _`curriculum vitae`: https://github.com/josephcslater/Resumes/raw/master/cv.pdf
+.. _`curriculum vitae`: https://josephcslater.github.io/josephcslater/_static/cv.pdf
