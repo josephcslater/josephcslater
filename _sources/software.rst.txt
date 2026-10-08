@@ -3,14 +3,14 @@ Software
 
 Matlab
 ------
-- `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
-- `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008. |wfem-downloads| |wfem-stars|
-- `Matlab2TeXs`_: Create LaTeX from Matlab polynomials and matrices. |matlab2texs-downloads| |matlab2texs-stars|
+- `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991. |vtoolbox-downloads| |vtoolbox-stars| (*Download count starts 2026-10-08; for reference, vtoolbox saw 63 clones (40 unique) and 19 views (7 unique) on GitHub in the preceding 14 days.*)
+- `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008. |wfem-downloads| |wfem-stars| (*Download count starts 2026-10-08; 8 clones (6 unique) in the preceding 14 days.*)
+- `Matlab2TeXs`_: Create LaTeX from Matlab polynomials and matrices. |matlab2texs-downloads| |matlab2texs-stars| (*Download count starts 2026-10-08; 1 clone in the preceding 14 days.*)
 
 Octave
 ------
-- `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
-- `octave2TeXs`_: Convert Octave matrices and polynomials to LaTeX. |octave2texs-downloads| |octave2texs-stars|
+- `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991. |ovtoolbox-downloads| |ovtoolbox-stars| (*Download count starts 2026-10-08; for reference, ovtoolbox saw 24 clones (20 unique) and 7 views (6 unique) on GitHub in the preceding 14 days.*)
+- `octave2TeXs`_: Convert Octave matrices and polynomials to LaTeX. |octave2texs-downloads| |octave2texs-stars| (*Download count starts 2026-10-08; 1 clone in the preceding 14 days.*)
 
 LaTeX
 -----
@@ -86,6 +86,22 @@ Python
 
 .. |octave2texs-stars| image:: https://img.shields.io/github/stars/josephcslater/octave2TeXs.svg
   :target: https://github.com/josephcslater/octave2TeXs
+  :alt: GitHub stars
+
+.. |vtoolbox-downloads| image:: https://img.shields.io/github/downloads/vibrationtoolbox/vtoolbox/total.svg
+  :target: https://github.com/vibrationtoolbox/vtoolbox/releases
+  :alt: GitHub Download stats
+
+.. |vtoolbox-stars| image:: https://img.shields.io/github/stars/vibrationtoolbox/vtoolbox.svg
+  :target: https://github.com/vibrationtoolbox/vtoolbox
+  :alt: GitHub stars
+
+.. |ovtoolbox-downloads| image:: https://img.shields.io/github/downloads/vibrationtoolbox/ovtoolbox/total.svg
+  :target: https://github.com/vibrationtoolbox/ovtoolbox/releases
+  :alt: GitHub Download stats
+
+.. |ovtoolbox-stars| image:: https://img.shields.io/github/stars/vibrationtoolbox/ovtoolbox.svg
+  :target: https://github.com/vibrationtoolbox/ovtoolbox
   :alt: GitHub stars
 
 .. _array_to_latex: https://pypi.org/project/array-to-latex/
