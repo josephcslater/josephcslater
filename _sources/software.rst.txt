@@ -1,10 +1,16 @@
 Software
 ########
 
-Matlab/Octave
--------------
+Matlab
+------
 - `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
 - `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008.
+- `Matlab2TeXs`_: Create LaTeX from Matlab polynomials and matrices.
+
+Octave
+------
+- `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
+- `octave2TeXs`_: Convert Octave matrices and polynomials to LaTeX.
 
 LaTeX
 -----
@@ -70,3 +76,5 @@ Python
 .. _`Engineering Vibration`: https://www.amazon.com/Engineering-Vibration-4th-Daniel-Inman/dp/0132871696
 .. _`WFEM`: https://github.com/josephcslater/WFEM
 .. _imac: https://ctan.org/pkg/imac
+.. _Matlab2TeXs: https://github.com/josephcslater/Matlab2TeXs
+.. _octave2TeXs: https://github.com/josephcslater/octave2TeXs
