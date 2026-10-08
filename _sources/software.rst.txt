@@ -6,6 +6,10 @@ Matlab/Octave
 - `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
 - `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008.
 
+LaTeX
+-----
+- `imac`_ : A LaTeX package and BibTeX style for producing correctly formatted documents for the International Modal Analysis Conference. Maintained since 1999.
+
 Python
 ------
 - `array_to_latex`_ : A simple module for creating LaTeX arrays from NumPy_ arrays. |array_to_latex| |array_to_latex-week|
@@ -65,3 +69,4 @@ Python
 .. _`Engineering Vibration Toolbox`: https://vibrationtoolbox.github.io/
 .. _`Engineering Vibration`: https://www.amazon.com/Engineering-Vibration-4th-Daniel-Inman/dp/0132871696
 .. _`WFEM`: https://github.com/josephcslater/WFEM
+.. _imac: https://ctan.org/pkg/imac
