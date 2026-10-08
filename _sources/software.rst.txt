@@ -14,7 +14,7 @@ Octave
 
 LaTeX
 -----
-- `imac`_ : A LaTeX package and BibTeX style for producing correctly formatted documents for the International Modal Analysis Conference. Maintained since 1999.
+- `imac`_ : A LaTeX package and BibTeX style for producing correctly formatted documents for the `International Modal Analysis Conference`_. Maintained since 1999.
 
 Python
 ------
@@ -116,5 +116,6 @@ Python
 .. _`Engineering Vibration`: https://www.amazon.com/Engineering-Vibration-4th-Daniel-Inman/dp/0132871696
 .. _`WFEM`: https://github.com/josephcslater/WFEM
 .. _imac: https://ctan.org/pkg/imac
+.. _International Modal Analysis Conference: https://sem.org/imac/
 .. _Matlab2TeXs: https://github.com/josephcslater/Matlab2TeXs
 .. _octave2TeXs: https://github.com/josephcslater/octave2TeXs
