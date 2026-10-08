@@ -4,13 +4,13 @@ Software
 Matlab
 ------
 - `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
-- `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008.
-- `Matlab2TeXs`_: Create LaTeX from Matlab polynomials and matrices.
+- `WFEM`_: Educational Structural Finite Element code designed for students to implement the math/computations of the element without the overhead of having to build an IO system, graphics, assembly, static/dynamic analysis, etc. (Matlab only at this point). Maintained since 2008. |wfem-downloads| |wfem-stars|
+- `Matlab2TeXs`_: Create LaTeX from Matlab polynomials and matrices. |matlab2texs-downloads| |matlab2texs-stars|
 
 Octave
 ------
 - `Engineering Vibration Toolbox`_: Educational vibration software loosely coupled with Daniel J. Inman's `Engineering Vibration`_. Available for Matlab and Octave. Supported since 1991.
-- `octave2TeXs`_: Convert Octave matrices and polynomials to LaTeX.
+- `octave2TeXs`_: Convert Octave matrices and polynomials to LaTeX. |octave2texs-downloads| |octave2texs-stars|
 
 LaTeX
 -----
@@ -63,6 +63,30 @@ Python
 .. |vitae| image:: http://pepy.tech/badge/vitae
   :target: http://pepy.tech/project/vitae
   :alt: PyPi Download stats
+
+.. |wfem-downloads| image:: https://img.shields.io/github/downloads/josephcslater/WFEM/total.svg
+  :target: https://github.com/josephcslater/WFEM/releases
+  :alt: GitHub Download stats
+
+.. |wfem-stars| image:: https://img.shields.io/github/stars/josephcslater/WFEM.svg
+  :target: https://github.com/josephcslater/WFEM
+  :alt: GitHub stars
+
+.. |matlab2texs-downloads| image:: https://img.shields.io/github/downloads/josephcslater/Matlab2TeXs/total.svg
+  :target: https://github.com/josephcslater/Matlab2TeXs/releases
+  :alt: GitHub Download stats
+
+.. |matlab2texs-stars| image:: https://img.shields.io/github/stars/josephcslater/Matlab2TeXs.svg
+  :target: https://github.com/josephcslater/Matlab2TeXs
+  :alt: GitHub stars
+
+.. |octave2texs-downloads| image:: https://img.shields.io/github/downloads/josephcslater/octave2TeXs/total.svg
+  :target: https://github.com/josephcslater/octave2TeXs/releases
+  :alt: GitHub Download stats
+
+.. |octave2texs-stars| image:: https://img.shields.io/github/stars/josephcslater/octave2TeXs.svg
+  :target: https://github.com/josephcslater/octave2TeXs
+  :alt: GitHub stars
 
 .. _array_to_latex: https://pypi.org/project/array-to-latex/
 .. _Mousai: https://pypi.org/project/mousai/
